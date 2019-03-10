@@ -1,0 +1,21 @@
+[submodule "apostolidis/themes/hugo-coder"]
+	path = apostolidis/themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "apostolidis/themes/themes/hello-friend-ng"]
+	path = apostolidis/themes/themes/hello-friend-ng
+	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
+[submodule "apostolidis/hello-friend-ng"]
+	path = apostolidis/hello-friend-ng
+	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
+[submodule "apostolidis/themes/hello-friend-ng"]
+	path = apostolidis/themes/hello-friend-ng
+	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
+[submodule "apostolidis/beautifulhugo"]
+	path = apostolidis/beautifulhugo
+	url = https://github.com/halogenica/beautifulhugo.git
+[submodule "apostolidis/themes/beautifulhugo"]
+	path = apostolidis/themes/beautifulhugo
+	url = https://github.com/halogenica/beautifulhugo.git
+[submodule "apostolidis/themes/m10c"]
+	path = apostolidis/themes/m10c
+	url = https://github.com/vaga/hugo-theme-m10c.git
