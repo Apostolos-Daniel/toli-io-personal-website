@@ -1,11 +1,11 @@
-baseURL = "https://master.d366xdjbwkz8j5.amplifyapp.com"
+baseURL = "https://adapostolidis.com"
 title = "Apostolis Apostolidis"
 #themesDir = "../.."
 theme = "m10c"
 paginate = 5
 
 [params]
-  author = "Apostolis Apostolidis"
+  author = "Apostolis D. Apostolidis"
   description = "A mathematics graduate turned Software Engineer"
   [[params.social]]
     name = "github"
