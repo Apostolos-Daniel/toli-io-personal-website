@@ -17,7 +17,8 @@ In my eyes this is massive and the funny thing is that we all saw it coming. I c
 And on the back of this, Microsoft announced [.NET 5](https://devblogs.microsoft.com/dotnet/introducing-net-5/):
 
 ```
-"There will be just one .NET going forward, and you will be able to use it to target Windows, Linux, macOS, iOS, Android, tvOS, watchOS and WebAssembly and more."
+"There will be just one .NET going forward, and you will be able to use it to target Windows, Linux, macOS, iOS, Android, 
+tvOS, watchOS and WebAssembly and more."
 ```
 Essentially, Microsoft are combining the various runtimes and frameworks (.NET Framework, .NET Core, Mono, Xamarin etc.) into a single .NET runtime and framework that has uniform runtime behaviours and developer experiences - and they're calling it **.NET 5**.
 
