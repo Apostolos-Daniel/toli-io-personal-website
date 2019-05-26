@@ -1,0 +1,6 @@
+<br />
+{{ range .Site.Menus.main.ByWeight }}
+    <div class="navbar-collapse collapse" id="navbar">
+        <a href="{{ .URL }}">{{ .Name }}</a>
+    </div>
+{{ end }}

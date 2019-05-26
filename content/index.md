@@ -1,15 +1,10 @@
 +++
-title =  "About me"
-tags = ["software", "me"]
-date = "2019-03-10"
+title =  "Introduction"
 +++
 
-## Introduction
-
-I'm currently working as a **Lead Developer** of the Digital workstream at **Gazprom Energy**, Manchester, UK. 
+I'm currently working as a **Lead Developer** of the Digital workstream at **Gazprom Energy**, Manchester, UK.
 
 I'm a Pure Mathmematics and Mathematical Physics graduate - via a long process of feeling as an imposter for a few years, I am now a passionate software engineer - primarily writing in C#, .NET. I've recently started writing in Go and using Hugo.
-
 
 ### Tech in the Community
 

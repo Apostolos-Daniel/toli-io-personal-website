@@ -7,6 +7,7 @@ paginate = 5
 [params]
   author = "Apostolis D. Apostolidis"
   description = "A mathematics graduate turned Software Engineer"
+  homeTitle = "Recent Activity"
   [[params.social]]
     name = "github"
     url = "https://github.com/Apostolos-Daniel/"
@@ -15,17 +16,51 @@ paginate = 5
     url = "https://twitter.com/apostolis09/"
 
   # Green theme
-  #[params.style]
-  #  darkestColor = "#315659"
-  #  darkColor = "#253031"
-  #  primaryColor = "#dad865"
-  #  lightColor = "#96a879"
-  #  lightestColor = "#fff"
+  [params.style]
+   darkestColor = "#315659"
+   darkColor = "#253031"
+   primaryColor = "#dad865"
+   lightColor = "#96a879"
+   lightestColor = "#fff"
 
   # Red and black theme
-  [params.style]
-    darkestColor = "#d35050"
-    darkColor = "#212121"
-    primaryColor = "#ffffff"
-    lightColor = "#a2a2a2"
-    lightestColor = "#d3d3d3"
+  #[params.style]
+    # darkestColor = "#d35050"
+    # darkColor = "#212121"
+    # primaryColor = "#ffffff"
+    # lightColor = "#a2a2a2"
+    # lightestColor = "#d3d3d3"
+
+[menu]
+  [[menu.main]]
+    name = "home"
+    #post = "<span class='alert'>New!</span>"
+    #pre = "<i class='fa fa-road'></i>"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "blog"
+    #post = "<span class='alert'>New!</span>"
+    #pre = "<i class='fa fa-road'></i>"
+    url = "/posts/"
+    weight = 1000
+
+  [[menu.main]]
+    name = "projects"
+    #pre = "<i class='fa fa-heart'></i>"
+    url = "/projects/"
+    weight = 10000
+
+  [[menu.main]]
+    name = "cv"
+    #post = "<span class='alert'>New!</span>"
+    #pre = "<i class='fa fa-road'></i>"
+    url = "/cv/"
+    weight = 20000
+
+  [[menu.main]]
+    name = "contact"
+    #pre = "<i class='fa fa-heart'></i>"
+    url = "/contact/"
+    weight = 2500
