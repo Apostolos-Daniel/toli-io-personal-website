@@ -2,6 +2,7 @@
 title =  "MS Build 2019: Reading between the lines"
 tags = ["build", "microsoft", ".NET", "blazor", "webassembly"]
 date = "2019-05-20"
+type = "posts"
 +++
 A number of announcements made at [Microsoft Build](https://www.microsoft.com/en-us/build) this year caught my eye. More specifically, I think two of them are pivotal for the future of **.NET**: 
 

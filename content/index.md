@@ -1,5 +1,6 @@
 +++
 title =  "Introduction"
+type = "posts"
 +++
 
 I'm currently working as a **Lead Developer** of the Digital workstream at **Gazprom Energy**, Manchester, UK.
