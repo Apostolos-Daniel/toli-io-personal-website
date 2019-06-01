@@ -53,7 +53,7 @@ paginate = 5
     weight = 10000
 
   [[menu.main]]
-    name = "cv"
+    name = "curruculum vitae"
     #post = "<span class='alert'>New!</span>"
     #pre = "<i class='fa fa-road'></i>"
     url = "/cv/"
