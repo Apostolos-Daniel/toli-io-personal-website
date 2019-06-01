@@ -1,6 +1,6 @@
 +++
-title =  "Curiculum Vitae"
-type = "cv"
+title =  "Bio"
+type = "info"
 +++
 
 I'm currently working as a **Lead Developer** of the Digital workstream at **Gazprom Energy**, Manchester, UK. 

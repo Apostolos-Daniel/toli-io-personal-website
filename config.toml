@@ -39,28 +39,28 @@ paginate = 5
     url = "/"
     weight = 1
 
+  # [[menu.main]]
+  #   name = "bio"
+  #   #post = "<span class='alert'>New!</span>"
+  #   #pre = "<i class='fa fa-road'></i>"
+  #   url = "/bio/"
+  #   weight = 1000
+
+  # [[menu.main]]
+  #   name = "projects"
+  #   #pre = "<i class='fa fa-heart'></i>"
+  #   url = "/project/"
+  #   weight = 10000
+
   [[menu.main]]
     name = "blog"
     #post = "<span class='alert'>New!</span>"
     #pre = "<i class='fa fa-road'></i>"
-    url = "/posts/"
-    weight = 1000
-
-  [[menu.main]]
-    name = "projects"
-    #pre = "<i class='fa fa-heart'></i>"
-    url = "/projects/"
-    weight = 10000
-
-  [[menu.main]]
-    name = "curruculum vitae"
-    #post = "<span class='alert'>New!</span>"
-    #pre = "<i class='fa fa-road'></i>"
-    url = "/cv/"
+    url = "/post/"
     weight = 20000
 
   [[menu.main]]
     name = "contact"
     #pre = "<i class='fa fa-heart'></i>"
     url = "/contact/"
-    weight = 2500
+    weight = 25000

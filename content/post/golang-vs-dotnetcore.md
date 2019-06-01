@@ -2,7 +2,6 @@
 title =  "A .NET Go Imposter"
 tags = ["presentation", "meetup", "beautiful.ai"]
 date = "2019-03-10"
-type = "posts"
 +++
 
 ## My first public talk
