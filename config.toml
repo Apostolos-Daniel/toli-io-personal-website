@@ -6,7 +6,7 @@ paginate = 5
 
 [params]
   author = "Apostolis D. Apostolidis"
-  description = "A mathematics graduate turned Software Engineer"
+  description = "Mathematics graduate turned Software Εngineer, based in Manchester, UK. Half Greek, half British. Citizen of Nowhere."
   homeTitle = "Welcome"
   [[params.social]]
     name = "github"
