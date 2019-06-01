@@ -3,9 +3,15 @@ title =  "Introduction"
 type = "posts"
 +++
 
+### Intro
+
+Hi! Welcome to my website. My full name is Apostolis Daniel Apostolidis, most people know me (including my mum), as **Toli**.
+
 I'm currently working as a **Lead Developer** of the Digital workstream at **Gazprom Energy**, Manchester, UK.
 
-I'm a Pure Mathmematics and Mathematical Physics graduate - via a long process of feeling as an imposter for a few years, I am now a passionate software engineer - primarily writing in C#, .NET. I've recently started writing in Go and using Hugo.
+### Software Development
+
+I'm a Pure Mathmematics and Mathematical Physics graduate - via a long process of feeling as an imposter for a few years, I am now a passionate software engineer - primarily writing in **C#**, .NET. I've recently started writing in Go and using Hugo.
 
 ### Tech in the Community
 
