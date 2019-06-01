@@ -5,7 +5,7 @@ type = "posts"
 
 ### Intro
 
-Hi! Welcome to my website. My full name is Apostolis Daniel Apostolidis, most people know me (including my mum), as **Toli**.
+Hi! Welcome to my website. My full name is Apostolis Daniel Apostolidis, most people know me as **Toli**.
 
 I'm currently working as a **Lead Developer** of the Digital workstream at **Gazprom Energy**, Manchester, UK.
 
