@@ -4,6 +4,11 @@ title = "Apostolis Apostolidis"
 theme = "m10c"
 paginate = 5
 
+# https://gohugo.io/getting-started/configuration/#configure-blackfriday
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
+
 [params]
   author = "Apostolis D. Apostolidis"
   description = "Mathematics graduate turned Software Εngineer, based in Manchester, UK. Half Greek, half British. Citizen of Nowhere."
