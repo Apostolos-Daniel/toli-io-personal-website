@@ -5,5 +5,5 @@ type = "info"
 
 If you feel the urge to reach out to me for any reason please contact me at any of the following:
 
-- **email:** [tolisapostolidis@gmail.com](tolisapostoldis@gmail.com)
+- **email:** [hello@toli.io](hello@toli.io)
 - **twitter:** [@apostolis09](https://twitter.com/apostolis09)
