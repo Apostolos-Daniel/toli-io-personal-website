@@ -15,17 +15,17 @@ paginate = 5
   homeTitle = "Welcome"
   [[params.social]]
     name = "github"
-    url = "https://github.com/Apostolos-Daniel/"
+    url = "https://github.com/apostolos-daniel/"
   [[params.social]]
     name = "twitter"
     url = "https://twitter.com/apostolis09/"
 
   # Green theme
   [params.style]
-   darkestColor = "#315659"
-   darkColor = "#253031"
-   primaryColor = "#dad865"
-   lightColor = "#96a879"
+   darkestColor = "#242930"
+   darkColor = "#212121"
+   primaryColor = "#57cc8a"
+   lightColor = "#a2a2a2"
    lightestColor = "#fff"
 
   # Red and black theme

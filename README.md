@@ -9,4 +9,16 @@ To start developing the website, first check whether it builds and runs smoothly
 hugo server -D
 ```
 
-This assumes that you have [hugo](https://gohugo.io/getting-started/quick-start/) installed.
+This assumes that you have [hugo](https://gohugo.io/getting-started/installing/) installed.
+
+## Windows (choco)
+
+```
+choco install hugo -confirm
+```
+
+## Linux (apt)
+
+```
+sudo apt install hugo
+```
