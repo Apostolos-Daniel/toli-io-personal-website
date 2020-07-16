@@ -24,3 +24,5 @@ I have a passion for learning; and sharing what I've learned with friends and th
 ## Political Debates
 
 I'm actively involved in a local DSC of [DIEM25](https://diem25.org/). Fostering and advocating debates about Europe.
+
+I'm also part of a transnational Greek political thematic team exploring the phenomenon of [Brain Drain](https://en.wikipedia.org/wiki/Human_capital_flight) in Greece and Southern Europe in general. For Greek speakers, we've started a [Brain Drain](https://open.spotify.com/show/2Wd0cdlqEwPVQVB4vaEMc3?si=xTQWezCkT4igDTXehFTBTg) podcast.
