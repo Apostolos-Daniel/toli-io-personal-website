@@ -15,12 +15,12 @@ I'm not sure what I was proud about most: the presentation itself or the tool I 
 
 ### Beautiful.ai
 
-It's probably not that obvious when seeing a screenshot but the whole process of creating a presentation using this tool has made it fun again. Don't get me wrong it takes time to get a sense of beauty and actucally create beautiful slide decks but this is a start! And it has got me excited again when I start thinking about creating presentations.
+It's probably not that obvious when seeing a screenshot but the whole process of creating a presentation using this tool has made it fun again. Don't get me wrong it takes time to get a sense of beauty and actually create beautiful slide decks but this is a start! And it has got me excited again when I start thinking about creating presentations.
 
 ![Example image](../../Example-beautiful-ai.PNG)
 
 Take a look for yourself:
 
-```
+```URL
 https://www.beautiful.ai/-LWajhsgv-w9AyBs1ejg/1
 ```

@@ -28,7 +28,7 @@ Essentially, Microsoft are combining the various runtimes and frameworks (.NET F
 
 #### .NET Framework Rest In Peace
 
-Microsoft has good track record of supporting **legacy** platforms and frameworks. 
+Microsoft has a good track record of supporting **legacy** platforms and frameworks.
 
 ```
 "Existing applications are safe to remain on .NET Framework which will be supported."
@@ -64,15 +64,15 @@ I'll try to document this process in a series of future blog posts.
 
 ## Blazor
 
-The other thing that caught my eye and got me excited is the [announcement of Blazor](https://mybuild.techcommunity.microsoft.com/sessions/77033?source=sessions#top-anchor) not being experimental anymore - it's now in **preview**. Blazor was a project that started just a couple of years ago when Microsoft decided to jump on the **WebAssembly** band waggon. 
+The other thing that caught my eye and got me excited is the [announcement of Blazor](https://mybuild.techcommunity.microsoft.com/sessions/77033?source=sessions#top-anchor) not being experimental anymore - it's now in **preview**. Blazor was a project that started just a couple of years ago when Microsoft decided to jump on the **WebAssembly** band waggon.
 
 #### Web Assembly
 
-[Web Assembly](https://webassembly.org/) in a nutshell provides a way to run code written in any language on any web browser. This is a game changer as developers can write apps in their language of choice and compile them in **WASM** format - shorthand for Web Assembly.
+[Web Assembly](https://webassembly.org/) in a nutshell provides a way to run code written in any language on any web browser. This is a game-changer as developers can write apps in their language of choice and compile them in **WASM** format - shorthand for Web Assembly.
 
 #### Enter Blazor
 
-Microsoft got involved with Web Assembly early on, essentially trying to utilise Web Assembly for ASP.NET Razor-like development of web apps. 
+Microsoft got involved with Web Assembly early on, essentially trying to utilise Web Assembly for ASP.NET Razor-like development of web apps.
 
 For more information here's some nice resources to get started:
 
@@ -84,8 +84,8 @@ For more information here's some nice resources to get started:
 
 The most interesting aspect of the Blazor project is that there are two different **hosting models** proposed by the Blazor team:
 
-- Client side
-- Server side
+- Client-side
+- Server-side
 
 #### Client side
 
@@ -95,7 +95,7 @@ This model entails loading the entire .NET runtime (Mono in this case) in the br
 
 #### Server side
 
-This model *seems* to be the recommended one by the Blazor team although they seem to use the Client side model almost as a clickbait. In this model a stable SignalR connection is used to update the various parts of the component when and if they are needed.
+This model *seems* to be the recommended one by the Blazor team although they seem to use the Client-side model almost as a clickbait. In this model a stable SignalR connection is used to update the various parts of the component when and if they are needed.
 
 ![](../Blazor%20server%20side.PNG)
 
@@ -103,6 +103,6 @@ Or at least that's my understanding at this point.
 
 ## Behind The Buzzword - Blazor & WebAssembly - The Future?
 
-I'm currently preparing a kata-form workshop for a local meetup in Manchester, UK, called [Behind The Buzzword](https://www.meetup.com/en-AU/Behind-The-Buzz-Word/events/261514601/). Through this process I hope to get a better understanding of how Blazor works and how at the end of the day it will be useful to build modern web apps with C#. 
+I'm currently preparing a kata-form workshop for a local meetup in Manchester, UK, called [Behind The Buzzword](https://www.meetup.com/en-AU/Behind-The-Buzz-Word/events/261514601/). Through this process I hope to get a better understanding of how Blazor works and how at the end of the day it will be useful to build modern web apps with C#.
 
 Follow me on twitter - [@apostolis09](https://twitter.com/apostolis09) - to get updates for my next blog posts.
