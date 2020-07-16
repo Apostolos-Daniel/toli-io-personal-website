@@ -50,7 +50,7 @@ Ever since .NET Core was announced and version **1.0** was released, the .NET co
 "New applications should be built on .NET Core. .NET Core is where future investments in .NET will happen."
 ```
 
-For me, this is a **positive** development. I prefer that Microsoft communicates this to the .NET community early, rather than pretending to sit on the fence. .NET Framework is being actively deprioritised, all future releases will be based on **.NET Core**. 
+For me, this is a **positive** development. I prefer that Microsoft communicates this to the .NET community early, rather than pretending to sit on the fence. .NET Framework is being actively deprioritised, all future releases will be based on **.NET Core**.
 
 #### November 2020
 
@@ -60,7 +60,7 @@ For me, this is a **positive** development. I prefer that Microsoft communicates
 
 At my current workplace, we have **November 2020** circled on our road map. Any new applications are being developed using **.NET Core**, any important existing .NET Framework applications will slowly transition to **.NET Core** where possible.
 
-I'll try to document this process in a series of future blog posts. 
+I'll try to document this process in a series of future blog posts.
 
 ## Blazor
 
