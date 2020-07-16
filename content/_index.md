@@ -7,7 +7,7 @@ type = "posts"
 
 Welcome to my website. My full name is Apostolis Daniel Apostolidis, most people know me as **Toli**.
 
-I'm currently working as an **Infrastructure Automation Engineer** specialiasing in everythying **DevOps** and **Observability** at [cinch](https://www.cinch.co.uk), Manchester, UK.
+I'm currently working as an **Infrastructure Automation Engineer** specialiasing in everything **DevOps** and **Observability** at [cinch](https://www.cinch.co.uk), Manchester, UK.
 
 ## Software Development
 
