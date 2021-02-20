@@ -7,7 +7,7 @@ type = "posts"
 
 Welcome to my website. My full name is Apostolis Daniel Apostolidis, most people know me as **Toli**.
 
-I'm currently working as an **Automation Engineer** specialising in everything **DevOps** and **Observability** at [cinch](https://www.cinch.co.uk), Manchester, UK.
+I'm currently working as a **Principal Engineer** specialising in everything **DevOps** and **Observability** at [cinch](https://www.cinch.co.uk), Manchester, UK.
 
 ## Software Development
 
@@ -15,7 +15,7 @@ I'm a Pure Mathematics and Mathematical Physics graduate - via a long process of
 
 ## Tech in the Community
 
-I have a passion for learning; sharing what I've learned with friends and the community in general. I'm a co-host of [Behind The Buzzword](https://www.meetup.com/en-AU/Behind-The-Buzz-Word) meetup in Manchester, UK.
+I have a passion for learning; sharing what I've learned with friends and the community in general. In the past, I was a co-host of [Behind The Buzzword](https://www.meetup.com/en-AU/Behind-The-Buzz-Word) meetup in Manchester, UK.
 
 ## Political Debates
 
