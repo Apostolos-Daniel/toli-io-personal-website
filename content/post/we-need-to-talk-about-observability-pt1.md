@@ -8,9 +8,9 @@ In the past year working at [cinch](https://www.cinch.co.uk/), a new buzzword ca
 
 > What is observability? And why is it not yet another buzzword?
 
-I've read too many of of Charity Major's [blog posts](https://charity.wtf/), listened to podcast episodes on [O11ycast](https://open.spotify.com/show/2x3IYa1tMQdQelf0Mu8ncF?si=O5QcL-rSS-Obdro7soXVaA)  or [rants](https://twitter.com/mipsytipsy/status/1305398051842871297) on twitter. So, typically, if you want to understand what observability is that should be more than  enough. Otherwise, keep reading if you want to get an idea of how I've experienced the o11y journey at [cinch](https://www.cinch.co.uk/).
+I've read one too many of Charity Major's [blog posts](https://charity.wtf/), listened to podcast episodes on [O11ycast](https://open.spotify.com/show/2x3IYa1tMQdQelf0Mu8ncF?si=O5QcL-rSS-Obdro7soXVaA)  or [rants](https://twitter.com/mipsytipsy/status/1305398051842871297) on twitter. So, typically, if you want to understand what observability is that should be more than enough to get started. Otherwise, keep reading if you want to get an idea of how I've experienced the o11y journey at [cinch](https://www.cinch.co.uk/).
 
-If you prefer a visual short introduction to o11y at cinch (although  a few months old now), the [slide deck](https://www.beautiful.ai/player/-MMY5DbOi1S2c8J-vbQ0) may be handy.
+If you prefer a visual short introduction to o11y at cinch (although a few months old now), the [slide deck](https://www.beautiful.ai/player/-MMY5DbOi1S2c8J-vbQ0) may be handy.
 
 ### What happened to our story?
 
