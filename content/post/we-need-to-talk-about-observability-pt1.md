@@ -4,7 +4,7 @@ tags = ["software", "engineering", "o11y"]
 date = "2021-06-04"
 +++
 
-In the past year working at [cinch](https://www.cinch.co.uk/), a new buzzword came into my daily tech dictionary: `observability`, or simply `o11y`. I've spent a lot of time digging in to what it means in the context of a software system in the cloud that essentially is a website selling (and delivering) cars to customers entirely online. 
+In the past year working at [cinch](https://www.cinch.co.uk/), a new buzzword came into my daily tech dictionary: `observability`, or simply `o11y`. I've spent a lot of time digging in to what it means in the context of a software system in the cloud that essentially is a website selling (and delivering) cars to customers entirely online.
 
 > What is observability? And why is it not yet another buzzword?
 
@@ -152,8 +152,7 @@ In short, there are few starting points that someone can start their interrogati
 - `key/value pairs`: these are globally unique, so querying for `orderCreated` should return a list of spans that have `orderCreated` against them across traces of the same lambda or any other lambda
 - `metrics`: metrics are also globally unique. These can either be queries separately or as part of the same telemetry dataset as the spans - this really depends on the tool you use. [Datadog](https://www.datadoghq.com/) and [AWS X-Ray](https://aws.amazon.com/xray/) definitely don't offer this unified telemetry dataset but based on the [white paper](https://www.honeycomb.io/wp-content/uploads/2020/09/Getting-metrics-into-honeycomb-whitepaper.pdf) from Honeycomb on metrics, I believe they do.
 
-With the above setup, we should be able to aggregate or trace the spans to be able to answer questions that will help us validate or invalidate our hypothesis at any point in time. 
-
+With the above setup, we should be able to aggregate or trace the spans to be able to answer questions that will help us validate or invalidate our hypothesis at any point in time.
 
 ### Disclaimers
 
@@ -171,6 +170,6 @@ As a consequence, observability should be used as an important catalyst to achie
 
 In part 2, I will try to describe why I think practising observability principles to have a highly mature telemetry dataset is not only useful for when well-formed stories break down. It's also useful to really understand the behaviour of your system, i.e get a more granular and well-informed idea of how those stories are keeping up. In the same way that you know how your laptop behaves from day to day - what app you decide to run or how many tabs in the browser you open lead to the machine behaving quite differently under different configurations. The code running in production essentially forms the product, therefore we want to understand how that behaves from day to day. This requires us to essentially `live in production` by querying our telemetry data on a daily basis. I'll also try to illustrate when to add a key/pair to the span and when to emit a metric. Finally, I'll try to address the question: are logs needed at all when practising observability?
 
-##### References
+#### References
 
-1. https://itrevolution.com/the-three-ways-principles-underpinning-devops/
+1. <https://itrevolution.com/the-three-ways-principles-underpinning-devops/>
