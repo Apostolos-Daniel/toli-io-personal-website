@@ -1,7 +1,7 @@
 +++
 title =  "We need to talk about observability (Pt 1)"
 tags = ["software", "engineering", "o11y"]
-date = "2020-11-19"
+date = "2021-06-04"
 +++
 
 In the past year working at [cinch](https://www.cinch.co.uk/), a new buzzword came into my daily tech dictionary: `observability`, or simply `o11y`. I've spent a lot of time digging in to what it means in the context of a software system in the cloud that essentially is a website selling (and delivering) cars to customers entirely online. 
