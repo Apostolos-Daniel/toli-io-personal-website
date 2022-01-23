@@ -57,8 +57,8 @@ paginate = 5
     weight = 20000
 
   [[menu.main]]
-    name = "talks"
-    url = "/talks/"
+    name = "public speaking"
+    url = "/public-speaking/"
     weight = 20000
 
   [[menu.main]]

@@ -1,6 +1,6 @@
 +++
-title =  "The Road to a New Architecture: Cinch’s Journey to Serverless | dash con 2021"
-tags = ["presentation", "conference"]
+title =  "The Road to a New Architecture: Cinch’s Journey to Serverless | dash con 2021 | talk"
+tags = ["presentation", "conference", "serverless", "observbility"]
 date = "2021-10-11"
 +++
 

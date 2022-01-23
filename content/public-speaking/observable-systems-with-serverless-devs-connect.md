@@ -1,6 +1,6 @@
 +++
-title =  "Observable systems with serverless | Devs Connect"
-tags = ["presentation", "meetup"]
+title =  "Observable systems with serverless | Devs Connect | talk"
+tags = ["presentation", "meetup", "serverless", "observbility"]
 date = "2022-01-20"
 +++
 
