@@ -57,6 +57,13 @@ paginate = 5
     weight = 20000
 
   [[menu.main]]
+    name = "books"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/books/"
+    weight = 20000
+
+  [[menu.main]]
     name = "contact"
     #pre = "<i class='fa fa-heart'></i>"
     url = "/contact/"
