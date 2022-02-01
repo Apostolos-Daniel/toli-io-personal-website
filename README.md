@@ -2,7 +2,7 @@
 
 Personal web page to write blogs, update projects and hold a CV page
 
-# Development
+## Development
 
 To start developing the website, first check whether it builds and runs smoothly. From the root folder run:
 

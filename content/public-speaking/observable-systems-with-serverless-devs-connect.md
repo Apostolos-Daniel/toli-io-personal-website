@@ -16,4 +16,6 @@ I talked about [Observable systems with serverless](https://www.meetup.com/devsc
 
 ✅ I ended with the (positive) impact the observability efforts had on the organisation.
 
+The talk is published on [YouTube](https://youtu.be/nvbabK1Vr48).
+
 Slide deck is published on the [meetup repo](https://github.com/Devs-Connect/dc003-observable-systems-and-ddd/blob/main/the_road_to_observable_systems_by_toli_apostolidis/the_road_to_observable_systems_by_toli_apostolidis.pdf), or on my GitHub account [slides repo](https://github.com/Apostolos-Daniel/slides/blob/main/the-road-to-observable-systems/devs-connect-2022-the-road-to-observable-systems-READ-ALONG-v3.pdf).
