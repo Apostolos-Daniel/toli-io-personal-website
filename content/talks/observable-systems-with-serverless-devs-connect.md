@@ -1,5 +1,5 @@
 +++
-title =  "Observable systems with serverless | "
+title =  "Observable systems with serverless"
 conference = "Devs Connect"
 conferenceUrl = "https://www.meetup.com/devsconnect/"
 conferenceDate = "Jan 2022"
