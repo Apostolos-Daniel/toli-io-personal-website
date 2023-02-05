@@ -1,5 +1,5 @@
 +++
-title =  "Going serverless with Toli Apostolidis of cinch | O11ycast | podcast"
+title =  "Going serverless with Toli Apostolidis of cinch | O11ycast podcast"
 type = "podcast"
 tags = ["podcast", "guest", "serverless", "observbility"]
 date = "2021-09-20"
