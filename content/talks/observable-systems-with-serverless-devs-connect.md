@@ -1,5 +1,8 @@
 +++
-title =  "Observable systems with serverless | Devs Connect | talk"
+title =  "Observable systems with serverless | "
+conference = "Devs Connect"
+conferenceUrl = "https://www.meetup.com/devsconnect/"
+conferenceDate = "Jan 2022"
 tags = ["presentation", "meetup", "serverless", "observbility"]
 date = "2022-01-20"
 +++

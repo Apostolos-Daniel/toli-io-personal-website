@@ -1,5 +1,8 @@
 +++
-title =  "Achieving unicorn scale, using Team Topologies at cinch | Agile Cambridge June 29th 2022 | talk"
+title =  "Achieving unicorn scale, using Team Topologies at cinch"
+conference = "Agile Cambridge"
+conferenceUrl = "https://agilecambridge.net/"
+conferenceDate = "June 29th 2022"
 type = "talk"
 date = "2022-06-29"
 tags = ["talk", "team-topologies", "organisational-design"]

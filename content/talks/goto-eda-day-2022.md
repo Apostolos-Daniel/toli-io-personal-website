@@ -1,5 +1,8 @@
 +++
-title =  "Event-driven architectures in practice: lessons learned building an e-commerce platform in six months at cinch | GOTO; EDA Day Sept 1st 2022 | talk"
+title =  "Event-driven architectures in practice: lessons learned building an e-commerce platform in six months at cinch"
+conference = "GOTO; EDA Day"
+conferenceUrl = "https://gotoldn.com/2022-eda-aws-day"
+conferenceDate = "Sept 1st 2022"
 type = "talk"
 date = "2022-09-01"
 tags = ["talk", "serverless", "EDA", "AWS"]
