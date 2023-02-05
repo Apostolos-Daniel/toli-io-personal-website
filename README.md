@@ -42,7 +42,7 @@ git config --local -e
 Add name and email to your local git config:
 
 ```bash
-[[user]
+[user]
         name = toli
         email = dev@toli.io
 ```
