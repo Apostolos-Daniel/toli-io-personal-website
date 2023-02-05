@@ -1,6 +1,7 @@
 +++
-title =  "Why Developers Can (and Should) Have a DevOps Mindset | Trusted Tech Talks podcast"
-type = "podcast"
+title =  "Why Developers Can (and Should) Have a DevOps Mindset"
+podcast = "Trusted Tech Talks"
+podcastUrl = "https://open.spotify.com/show/1emxLR0GmLhP9BRaJ4ZU97"
 tags = ["podcast", "guest", "devops", "devops-mindset"]
 date = "2021-11-01"
 +++

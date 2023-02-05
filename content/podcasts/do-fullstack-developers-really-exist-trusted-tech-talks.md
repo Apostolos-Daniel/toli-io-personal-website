@@ -1,5 +1,7 @@
 +++
-title =  "Do Fullstack Developers Really Exist? | Trusted Tech Talks podcast"
+title =  "Do Fullstack Developers Really Exist?"
+podcast = "Trusted Tech Talks"
+podcastUrl = "https://open.spotify.com/show/1emxLR0GmLhP9BRaJ4ZU97"
 type = "podcast"
 tags = ["podcast", "guest", "full-stack", "devops-mindset"]
 date = "2021-07-01"
