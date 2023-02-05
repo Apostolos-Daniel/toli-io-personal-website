@@ -5,13 +5,13 @@ type = "posts"
 
 ## 👋 Hi 
 
-Welcome to my website. My full name is Apostolis Daniel Apostolidis, most people know me as **Toli**.
+Welcome to my website. My full name is Apostolis Daniel Apostolidis. Most people know me as **Toli**.
 
 I'm currently working as a **Head of Engineering Practice** specialising in everything **DevOps** and **Observability** at [cinch](https://www.cinch.co.uk), Manchester, UK.
 
 ## 💻 Software Engineering
 
-I love discovering what good, contemporary Engineering Practices look like. I have spent a decade as a Software Engineer, working across many software paradigms, stacks, and industries. I have since discovered the power of empowering teams and orgnanisations working together.
+I love discovering what good, contemporary Engineering Practices look like. I have spent a decade as a Software Engineer, working across many software paradigms, stacks, and industries. I have since discovered the power of empowering teams and organisations working together.
 
 ## 🗺️ Tech in the Community
 
@@ -23,7 +23,7 @@ I have a passion for learning; sharing what I've learned with friends and the co
 
 ## 🎓 Education
 
-I studied what I loved since a kid - Pure Mathematics and Mathematical Physics. Spent 4 amazing years learning about so many amazing fields of Mathematics in Patra, Greece. Spent my final year in University, undertaking an MSc in Mathematical Sciences at Durham University, UK.
+I studied what I loved since a kid - Pure Mathematics and Mathematical Physics. Spent 4 amazing years learning about so many amazing fields of Mathematics in Patra, Greece. Spent my final year at University, undertaking an MSc in Mathematical Sciences at Durham University, UK.
 
 ## 🏀 Basketball
 
