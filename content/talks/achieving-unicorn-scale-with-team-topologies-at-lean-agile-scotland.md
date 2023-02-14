@@ -1,6 +1,6 @@
 +++
 title =  "Achieving unicorn scale, using Team Topologies at cinch"
-conference = "Lean Agile Scotlant"
+conference = "Lean Agile Scotland"
 conferenceUrl = "https://agilecambridge.net/"
 conferenceDate = "October 5th 2022"
 type = "talk"
