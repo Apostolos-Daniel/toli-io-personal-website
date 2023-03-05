@@ -22,5 +22,5 @@ It's probably not that obvious when seeing a screenshot but the whole process of
 Take a look for yourself:
 
 ```URL
-https://www.beautiful.ai/-LWajhsgv-w9AyBs1ejg/1
+https://www.beautiful.ai/player/-MZCABNK2u6PNZcKyX7H/A-NET-Go-Imposter-Mcr-Web-Meetup-Jan-23-2019
 ```

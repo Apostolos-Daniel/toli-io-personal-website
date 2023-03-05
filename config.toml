@@ -11,7 +11,7 @@ paginate = 5
 
 [params]
   author = "Apostolis D. Apostolidis"
-  description = "Head of Engineerin Practice at cinch, advocating for DevOps & O11y | 1/2 🇬🇷, 1/2 🇬🇧 | Citizen of Nowhere"
+  description = "Head of Engineering Practice at cinch, advocating for DevOps & O11y | 1/2 🇬🇷, 1/2 🇬🇧 | Citizen of Nowhere"
   homeTitle = "Welcome"
   [[params.social]]
     name = "github"
