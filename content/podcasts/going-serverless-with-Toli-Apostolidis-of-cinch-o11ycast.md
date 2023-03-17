@@ -3,7 +3,7 @@ title =  "Going serverless with Toli Apostolidis of cinch"
 podcast = "O11ycast"
 podcastUrl = "https://www.heavybit.com/library/podcasts/o11ycast"
 type = "podcast"
-tags = ["podcast", "guest", "serverless", "observbility"]
+tags = ["podcast", "guest", "serverless", "observability"]
 date = "2021-09-20"
 +++
 

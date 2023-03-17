@@ -3,7 +3,7 @@ title =  "Observable systems with serverless"
 conference = "Devs Connect"
 conferenceUrl = "https://www.meetup.com/devsconnect/"
 conferenceDate = "Jan 2022"
-tags = ["presentation", "meetup", "serverless", "observbility"]
+tags = ["presentation", "meetup", "serverless", "observability"]
 date = "2022-01-20"
 +++
 

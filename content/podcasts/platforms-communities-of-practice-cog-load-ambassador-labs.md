@@ -2,7 +2,7 @@
 title =  "Platforms, Communities of Practice, and Cognitive Load"
 podcast = "Ambassador Labs"
 podcastUrl = "https://open.spotify.com/show/4A8w8qB4ogp9JAk6tEqQn9"
-tags = ["podcast", "guest", "serverless", "observbility", "engineering-culture", "engineering-practices", "communities-of-practice", "devops", "cognitive-load"]
+tags = ["podcast", "guest", "serverless", "observability", "engineering-culture", "engineering-practices", "communities-of-practice", "devops", "cognitive-load"]
 date = "2022-07-20"
 +++
 
