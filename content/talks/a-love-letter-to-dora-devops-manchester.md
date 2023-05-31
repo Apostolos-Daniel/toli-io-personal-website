@@ -1,5 +1,5 @@
 +++
-title =  "A love letter to dora"
+title =  "A love letter to dora (DevOps Manchester)"
 conference = "DevOps Manchester"
 conferenceUrl = "https://www.meetup.com/devops-manchester/events/293084111/"
 conferenceDate = "May 17th 2023"
