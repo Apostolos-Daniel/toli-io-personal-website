@@ -1,16 +1,15 @@
 +++
 title =  "A love letter to dora"
-conference = "DORA Communitty Discussions"
-conferenceUrl = "https://groups.google.com/g/dora-community"
-conferenceDate = "Feb 9th 2023"
+conference = "DevOps Manchester"
+conferenceUrl = "https://www.meetup.com/devops-manchester/events/293084111/"
+conferenceDate = "May 17th 2023"
 type = "talk"
-date = "2023-02-09"
+date = "2023-05-17"
 tags = ["talk", "DevOps", "DORA", "Google"]
 +++
 
-I spoke at [DORA Community Discussions](https://groups.google.com/g/dora-community) - a monthly DevOps Research Assessment get together to discuss with other DevOps enthusiasts about the latest DORA research.
+I spoke at [DevOps Manchester meetup](https://groups.google.com/g/dora-community) with Varuna Venkatesh. This particular occurence of the meetup was hosted by DTX Manchestetr
 
 ## Links
 
-- [Slides on GitHub]( https://github.com/Apostolos-Daniel/slides/blob/main/2023-dora-community-conversations/a-love-letter-to-dora.pdf)
-- [Talk on youtube](https://youtu.be/GnpX2B8IymA)
+- [Slides on GitHub](https://github.com/Apostolos-Daniel/slides/tree/main/2023-DTX-Manchester)
