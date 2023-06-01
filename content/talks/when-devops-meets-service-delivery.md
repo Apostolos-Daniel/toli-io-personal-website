@@ -3,8 +3,9 @@ title =  "When DevOps meets Service Delivery"
 conference = "Wtf is SRE"
 conferenceUrl = "https://www.cloud-native-sre.wtf/"
 conferenceDate = "May 2023"
-tags = ["presentation", "meetup", "culture", "observability", "sre", "itsm", "devops"]
+type = "talk"
 date = "2023-05-4"
+tags = ["presentation", "meetup", "culture", "observability", "sre", "itsm", "devops"]
 +++
 
 I talked about what happens [when DevOps meets Service Delivery](https://agilemanchester.net/programme/how-get-better-understanding-across-org-through-observability) with Cristan Massey at [WTF IS SRE](https://www.cloud-native-sre.wtf/).
