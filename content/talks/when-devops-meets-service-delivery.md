@@ -4,7 +4,7 @@ conference = "Wtf is SRE"
 conferenceUrl = "https://www.cloud-native-sre.wtf/"
 conferenceDate = "May 2023"
 type = "talk"
-date = "2023-05-4"
+date = "2023-05-04"
 tags = ["presentation", "meetup", "culture", "observability", "sre", "itsm", "devops"]
 +++
 
