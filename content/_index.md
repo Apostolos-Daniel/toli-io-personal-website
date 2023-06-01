@@ -7,11 +7,11 @@ type = "posts"
 
 Welcome to my website. My full name is Apostolis Daniel Apostolidis. Most people know me as **Toli**.
 
-I'm currently working as a **Head of Engineering Practice** specialising in everything **DevOps** and **Observability** at [cinch](https://www.cinch.co.uk), Manchester, UK.
+I'm currently on a small career break after working at [cinch](cinch.co.uk) for 3.5 years where I held several roles, with the last one being "Head of Engineering Practice".
 
 ## 💻 Software Engineering
 
-I love discovering what good, contemporary Engineering Practices look like. I have spent a decade as a Software Engineer, working across many software paradigms, stacks, and industries. I have since discovered the power of empowering teams and organisations working together.
+I love discovering what good, contemporary Engineering Practices look like. I have spent more than a decade as a Software Engineer, working across many software paradigms, stacks, and industries. I have since discovered the power of empowering teams and organisations working together.
 
 ## 🗺️ Tech in the Community
 
