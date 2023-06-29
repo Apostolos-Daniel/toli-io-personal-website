@@ -13,6 +13,5 @@ Slide deck is published on my GitHub [slides repo](https://github.com/Apostolos-
 
 ![image 1](../agile-manchester-talk-description-1.png)
 ![image 2](../Agile%20Manchester%20talk%20description%202.png)
-![image 3](../Agile%20Manchester%20talk%20description%202.png)
 
 
