@@ -7,7 +7,7 @@ type = "posts"
 
 Welcome to my website. My full name is Apostolis Daniel Apostolidis. Most people know me as **Toli**.
 
-I'm currently on a small career break after working at [cinch](cinch.co.uk) for 3.5 years where I held several roles, with the last one being "Head of Engineering Practice".
+I'm currently a Principal Engineer at a company called [FlipDish](www.flipdish.com), after working at [cinch](cinch.co.uk) for 3.5 years where I held several roles, with the last one being "Head of Engineering Practice".
 
 ## 💻 Software Engineering
 
