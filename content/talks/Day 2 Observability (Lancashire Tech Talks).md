@@ -1,14 +1,14 @@
 +++
-title =  "A Culture of Observing: how to get a better understanding across the organisation through observability"
-conference = "Agile in the City, Bristol & Bath"
-conferenceUrl = "https://bristol.agileinthecity.net/"
-conferenceDate = "June 2023"
-tags = ["presentation", "conference", "culture", "observability"]
-date = "2023-06-29"
+title =  "Day 2 Observability: Building Organizational Understanding"
+conference = "Lancashire Tech Talks"
+conferenceUrl = "https://www.meetup.com/Lancashire-Tech-Talks/"
+conferenceDate = "July 2023"
+tags = ["presentation", "meetup", "culture", "observability"]
+date = "2023-07-04"
 +++
 
-I talked about [A Culture of Observing: how to get a better understanding across the organisation through observability](https://bristol.agileinthecity.net/programme/culture-observing-how-get-better-understanding-across-org-through-observability) at [Agile in the City](https://bristol.agileinthecity.net/).
+I talked about [Day 2 Observability: Building Organizational Understanding](https://www.meetup.com/lancashire-tech-talks/events/293319889/) at a local meetup [Lancashire Tech Talks](https://www.meetup.com/Lancashire-Tech-Talks/).
 
-You can find the slide deck on my GitHub [slides repo](https://github.com/Apostolos-Daniel/slides/blob/main/2023-agile-in-the-city-bath/A%20culture%20of%20observing%20-%20Agile%20in%20the%20City%20-%20Bath%20%26%20Bristol.pdf).
+You can find the slide deck on my GitHub [slides repo](https://github.com/Apostolos-Daniel/slides/blob/main/2023-lancashire-tech-talks-meetup/Day%202%20Observability-%20Building%20Organizational%20Understanding.pdf).
 
 
