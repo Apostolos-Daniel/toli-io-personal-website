@@ -8,8 +8,9 @@ date = "2023-05-17"
 tags = ["talk", "DevOps", "DORA", "Google"]
 +++
 
-I spoke at [DevOps Manchester meetup](https://groups.google.com/g/dora-community) with Varuna Venkatesh. This particular occurence of the meetup was hosted by DTX Manchestetr
+I spoke at [DevOps Manchester meetup](https://groups.google.com/g/dora-community) with Varuna Venkatesh. This particular occurence of the meetup was hosted by DTX Manchester. 
 
 ## Links
 
 - [Slides on GitHub](https://github.com/Apostolos-Daniel/slides/tree/main/2023-DTX-Manchester)
+- [Miro board template](https://miro.com/app/board/uXjVMI9Df4k=/?share_link_id=334717608614)
