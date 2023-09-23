@@ -14,3 +14,4 @@ I spoke at [DevOps Manchester meetup](https://groups.google.com/g/dora-community
 
 - [Slides on GitHub](https://github.com/Apostolos-Daniel/slides/tree/main/2023-DTX-Manchester)
 - [Miro board template](https://miro.com/app/board/uXjVMI9Df4k=/?share_link_id=334717608614)
+- [YouTube recording](https://youtu.be/sYAxFYbHLIg?si=RPWpV8qhgsSk6dau)
