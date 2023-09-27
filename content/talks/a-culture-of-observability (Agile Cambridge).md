@@ -4,7 +4,7 @@ conference = "Agile Cambridge"
 conferenceUrl = "https://agilecambridge.net/programme-2023"
 conferenceDate = "September 2023"
 tags = ["presentation", "conference", "culture", "observability"]
-date = "2023-9-27"
+date = "2023-09-27"
 +++
 
 I talked about [A Culture of Observing: how to get a better understanding across the organisation through observability](https://agilecambridge.net/programme/culture-observing-how-get-better-understanding-across-org-through-observability) at [Agile Cambridge](https://agilecambridge.net).
