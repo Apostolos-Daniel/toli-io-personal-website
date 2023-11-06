@@ -12,4 +12,5 @@ I spoke at [Agile Cambridge](https://agilecambridge.net/programme/unicorn-scale-
 
 ## Links
 
-[Slides](https://github.com/Apostolos-Daniel/slides/blob/main/2022-agile-cambridge/achieving-unicorn-scale-using-team-topologies-at-cinch.pdf)
+- [Slides](https://github.com/Apostolos-Daniel/slides/blob/main/2022-agile-cambridge/achieving-unicorn-scale-using-team-topologies-at-cinch.pdf)
+- [A review from an attendant of the talk](https://jalphey.wordpress.com/2022/07/03/agile2022-5/)
