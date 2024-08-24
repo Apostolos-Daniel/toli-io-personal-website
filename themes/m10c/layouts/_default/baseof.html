@@ -11,6 +11,12 @@
     {{ $style := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "css/main.scss" . | resources.ToCSS | resources.Minify | resources.Fingerprint -}}
     <link rel="stylesheet" href="{{ $style.Permalink }}" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  {{ if .Params.canonical }}
+  <link rel="canonical" href="{{ .Params.canonical | safeURL }}">
+  {{ else }}
+  <link rel="canonical" href="{{ .Permalink | safeURL }}">
+  {{ end }}
   </head>
   <body>
     <header class="app-header">
