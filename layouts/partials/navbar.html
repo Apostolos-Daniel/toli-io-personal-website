@@ -1,4 +1,6 @@
 <br />
+
+<button id="theme-toggle" aria-label="Dark Mode" title="Dark Mode">🌙</button>
 {{ range .Site.Menus.main.ByWeight }}
 <div class="navbar-collapse collapse" class="navbar">
     <a href="{{ .URL }}">{{ .Name }}</a>
@@ -7,6 +9,4 @@
 <div>
     {{ partial "dark-mode-toggle.html" . }}
 </div>
-
-<button id="theme-toggle" aria-label="Dark Mode" title="Dark Mode">🌙</button>
 
