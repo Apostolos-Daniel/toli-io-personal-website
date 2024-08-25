@@ -1,0 +1,31 @@
+/* Define variables for reusability and easier maintenance */
+$blockquote-border-color: #dfe2e5;
+$blockquote-background-color: #f7f8fa;
+$blockquote-text-color: #333;
+$blockquote-padding: 1rem;
+$blockquote-margin: 1.5rem 0;
+$blockquote-font-style: italic;
+
+/* SCSS Styling for blockquotes */
+blockquote {
+  border-left: 4px solid $blockquote-border-color;
+  background-color: $blockquote-background-color;
+  padding: $blockquote-padding;
+  margin: $blockquote-margin;
+  font-style: $blockquote-font-style;
+  color: $blockquote-text-color;
+
+  p {
+    margin: 0; /* Remove default paragraph margins */
+  }
+
+  /* Additional styling, like handling nested elements within blockquotes */
+  a {
+    color: $blockquote-text-color;
+    text-decoration: underline;
+
+    &:hover {
+      color: darken($blockquote-text-color, 10%);
+    }
+  }
+}
