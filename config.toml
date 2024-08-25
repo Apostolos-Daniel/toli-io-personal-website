@@ -86,3 +86,8 @@ weight = 20000
 name = "contact"
 url = "/contact/"
 weight = 25000
+
+[[menu.main]]
+name = "bio"
+url = "/bio/"
+weight = 25000
