@@ -20,13 +20,18 @@ body {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Merriweather', serif;
   font-weight: 700;
   color: $darkest-color;
 
-  &.dark-mode {
-    color: $lightest-color;
+  body.dark-mode & {
+    color: $light-color;
   }
 }
 
@@ -38,9 +43,13 @@ a {
   &:hover {
     color: darken($primary-color, 10%);
     text-decoration: underline;
+  }
 
-    &.dark-mode {
-      color: $lightest-color;
+  body.dark-mode & {
+    color: $light-color;
+
+    &:hover {
+      color: lighten($light-color, 10%);
     }
   }
 }
@@ -50,7 +59,7 @@ pre {
   color: $dark-color;
   overflow: auto;
 
-  &.dark-mode {
+  body.dark-mode & {
     background-color: $darkest-color;
     color: $light-color;
   }
@@ -59,21 +68,121 @@ pre {
 .content {
   padding: 2rem; // Adjust padding as necessary
   margin-bottom: 2rem;
+  background-color: $lightest-color;
+
+  body.dark-mode & {
+    background-color: $dark-color;
+    color: $light-color;
+  }
 }
 
 .icon {
   color: $primary-color;
   transition: color 0.3s;
 
-  &:hover {
-      color: $secondary-color;
+  body.dark-mode & {
+    color: $lightest-color;
+
+    &:hover {
+      color: lighten($lightest-color, 10%);
+    }
+  }
+}
+
+.app-header {
+  background-color: $lightest-color;
+  color: $dark-color;
+
+  body.dark-mode & {
+    background-color: $darkest-color;
+    color: $light-color;
   }
 }
 
 .app-header-avatar {
   width: 200px;
-  height: 200px; 
+  height: 200px;
   border-radius: 50%; /* Make the image circular */
   object-fit: cover; /* Ensure the image fits within the circle */
-  border: 3px solid #333; /* Optional: Add a border for styling */
+  border: 3px solid #333;
+
+  body.dark-mode & {
+    border-color: $lightest-color;
+  }
+}
+
+#theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: $primary-color;
+
+  &:hover {
+    color: $secondary-color;
+  }
+
+  body.dark-mode & {
+    color: $lightest-color;
+  }
+}
+
+footer {
+  background-color: $lightest-color;
+  color: $dark-color;
+  padding: 1rem;
+
+  body.dark-mode & {
+    background-color: $darkest-color;
+    color: $light-color;
+  }
+}
+
+.nav-menu {
+  background-color: $lightest-color;
+  color: $dark-color;
+
+  body.dark-mode & {
+    background-color: $darkest-color;
+    color: $light-color;
+  }
+}
+
+.nav-menu a {
+  color: $primary-color;
+
+  body.dark-mode & {
+    color: $lightest-color;
+
+    &:hover {
+      color: lighten($lightest-color, 10%);
+    }
+  }
+}
+
+
+.button {
+  background-color: $primary-color;
+  color: $lightest-color;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+#theme-toggle {
+  font-size: 1.2rem; /* Adjust this value */
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
+  margin: 0.5rem; /* Adjust margin as needed */
+  position: fixed;
+  bottom: 20px;  /* Adjust the distance from the bottom */
+  right: 20px;   /* Optional: Adjust the distance from the right */
+  border-radius: 5px;  /* Optional: Add rounded corners */
+  z-index: 1000;  /* Ensure the button is above other content */
+  border: none;
+  cursor: pointer;
 }

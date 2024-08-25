@@ -5,4 +5,9 @@
     position: fixed; /* Fixes the header to the top of the page */
     width: 100%; /* Makes the header span the full width of the page */
     z-index: 1000; /* Sets the z-index of the header */
+
+    body.dark-mode & {
+        background-color: $darkest-color; /* Sets the background color of the header in dark mode */
+        color: $lightest-color; /* Sets the text color of the header in dark mode */
+    }
 }

@@ -55,10 +55,10 @@ weight = 1
 # url = "/bio/"
 # weight = 1000
 
-[[menu.main]]
-name = "projects"
-url = "/project/"
-weight = 10000
+# [[menu.main]]
+# name = "projects"
+# url = "/project/"
+# weight = 10000
 
 [[menu.main]]
 name = "blog"
@@ -75,10 +75,10 @@ name = "podcasts"
 url = "/podcasts/"
 weight = 20000
 
-[[menu.main]]
-name = "books"
-url = "/books/"
-weight = 20000
+# [[menu.main]]
+# name = "books"
+# url = "/books/"
+# weight = 20000
 
 [[menu.main]]
 name = "contact"
