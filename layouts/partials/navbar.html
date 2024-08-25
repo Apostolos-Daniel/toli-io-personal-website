@@ -1,6 +1,9 @@
 <br />
 {{ range .Site.Menus.main.ByWeight }}
-    <div class="navbar-collapse collapse" id="navbar">
-        <a href="{{ .URL }}">{{ .Name }}</a>
-    </div>
+<div class="navbar-collapse collapse" id="navbar">
+    <a href="{{ .URL }}">{{ .Name }}</a>
+</div>
 {{ end }}
+<!-- <div>
+    {{ partial "dark-mode-toggle.html" . }}
+</div> -->
