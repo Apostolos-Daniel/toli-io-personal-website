@@ -8,26 +8,64 @@ html {
 
 body {
   margin: 0;
-  font-family: sans-serif;
-  background: $dark-color;
-  color: $light-color;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  background: $light-color;
+  color: $dark-color;
+
+  &.dark-mode {
+    background: $dark-color;
+    color: $light-color;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $lightest-color;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  color: $darkest-color;
+
+  &.dark-mode {
+    color: $lightest-color;
+  }
 }
 
 a {
   color: $primary-color;
+  font-weight: 500;
   text-decoration: none;
 
   &:hover {
-    color: $lightest-color;
-    transition: color 0.8s;
+    color: darken($primary-color, 10%);
+    text-decoration: underline;
+
+    &.dark-mode {
+      color: $lightest-color;
+    }
   }
 }
 
 pre {
+  background-color: $lightest-color;
+  color: $dark-color;
   overflow: auto;
+
+  &.dark-mode {
+    background-color: $darkest-color;
+    color: $light-color;
+  }
 }
 
+.content {
+  padding: 2rem; // Adjust padding as necessary
+  margin-bottom: 2rem;
+}
+
+.icon {
+  color: $primary-color;
+  transition: color 0.3s;
+
+  &:hover {
+      color: $secondary-color;
+  }
+}

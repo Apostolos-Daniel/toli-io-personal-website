@@ -1,0 +1,8 @@
+.header {
+    background-color: $lightest-color; /* Sets the background color of the header */
+    color: $darkest-color; /* Sets the text color of the header */
+    padding: 1rem 0; /* Adds some padding to the top and bottom of the header */
+    position: fixed; /* Fixes the header to the top of the page */
+    width: 100%; /* Makes the header span the full width of the page */
+    z-index: 1000; /* Sets the z-index of the header */
+}

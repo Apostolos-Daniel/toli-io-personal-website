@@ -1,8 +1,9 @@
-$darkest-color: {{ .Site.Params.style.darkestColor | default "#242930" }};
-$dark-color: {{ .Site.Params.style.darkColor | default "#353b43" }};
-$light-color: {{ .Site.Params.style.lightColor | default "#afbac4" }};
-$lightest-color: {{ .Site.Params.style.lightestColor | default "#ffffff" }};
-$primary-color: {{ .Site.Params.style.primaryColor | default "#57cc8a" }};
+$darkest-color: {{ .Site.Params.style.darkestColor | default "#1f1f1f" }};  // Dark theme background for header
+$dark-color: {{ .Site.Params.style.darkColor | default "#2b2b2b" }};      // Dark theme background for body
+$light-color: {{ .Site.Params.style.lightColor | default "#f4f4f4" }};     // Light theme background
+$lightest-color: {{ .Site.Params.style.lightestColor | default "#ffffff" }}; // Light theme content background
+$primary-color: {{ .Site.Params.style.primaryColor | default "#333333" }}; // Primary accent color
+$secondary-color: {{ .Site.Params.style.secondaryColor | default "#5a9bd5" }};  // Secondary accent color
 
 @import 'base';
 
@@ -12,4 +13,4 @@ $primary-color: {{ .Site.Params.style.primaryColor | default "#57cc8a" }};
 @import 'components/post';
 @import 'components/posts_list';
 @import 'components/tag';
-
+@import 'components/header';

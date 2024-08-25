@@ -1,7 +1,14 @@
 .app-header {
   padding: 2.5em;
-  background: $darkest-color;
+  background: $lightest-color;  /* Light mode background */
   text-align: center;
+  color: $darkest-color;  /* Light mode text color */
+
+  /* Dark mode */
+  .dark-mode & {
+    background: $darkest-color;  /* Dark mode background */
+    color: $lightest-color;  /* Dark mode text color */
+  }
 }
 
 .app-header-avatar {
@@ -13,14 +20,25 @@
 
 .app-container {
   padding: 2.5rem;
+  
+  /* Dark mode */
+  .dark-mode & {
+    background-color: $dark-color;
+    color: $light-color;
+  }
 }
 
 .app-header-social {
   font-size: 2em;
-  color: $lightest-color;
+  color: $primary-color;  /* Primary color for social icons in light mode */
 
   a {
     margin: 0 0.1em;
+  }
+
+  /* Dark mode */
+  .dark-mode & {
+    color: $lightest-color;  /* Light color for social icons in dark mode */
   }
 }
 
@@ -31,10 +49,22 @@
     left: 0;
     width: 20rem;
     min-height: 100vh;
+    background: $lightest-color;  /* Light mode for larger screens */
+
+    /* Dark mode */
+    .dark-mode & {
+      background: $darkest-color;  /* Dark mode background for larger screens */
+    }
   }
 
   .app-container {
     max-width: 65rem;
     margin-left: 20rem;
+
+    /* Dark mode */
+    .dark-mode & {
+      background-color: $dark-color;
+      color: $light-color;
+    }
   }
 }

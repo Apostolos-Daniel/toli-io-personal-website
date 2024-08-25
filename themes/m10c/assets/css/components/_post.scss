@@ -1,5 +1,12 @@
 .post-title {
-  color: $lightest-color;
+  color: $darkest-color;
+  font-family: 'Merriweather', serif; 
+  font-size: 2.5rem;
+  letter-spacing: -0.02em;
+
+  &.dark-mode {
+    color: $lightest-color;
+  }
 }
 
 .post-content {

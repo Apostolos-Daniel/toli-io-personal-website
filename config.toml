@@ -4,75 +4,73 @@ title = "Apostolis Apostolidis"
 theme = "m10c"
 paginate = 10
 
-# https://gohugo.io/getting-started/configuration/#configure-blackfriday
+# Blackfriday settings for Markdown
 [blackfriday]
-  plainIDAnchors = true
-  hrefTargetBlank = true
+plainIDAnchors = true
+hrefTargetBlank = true
 
 [params]
-  author = "Apostolis D. Apostolidis"
-  description = "Principal Engineer at FlipDish | serverless, DevOps & o11y | 1/2 🇬🇷, 1/2 🇬🇧 | Citizen of Nowhere"
-  homeTitle = "Welcome"
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/apostolos-daniel/"
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/apostolis09/"
+author = "Apostolis D. Apostolidis"
+description = "Principal Engineer at FlipDish | serverless, DevOps & o11y | 1/2 🇬🇷, 1/2 🇬🇧 | Citizen of Nowhere"
+homeTitle = "Welcome"
 
-  # Green theme
-  [params.style]
-   darkestColor = "#242930"
-   darkColor = "#212121"
-   primaryColor = "#57cc8a"
-   lightColor = "#a2a2a2"
-   lightestColor = "#fff"
+# Social links
+[[params.social]]
+name = "github"
+url = "https://github.com/apostolos-daniel/"
+[[params.social]]
+name = "twitter"
+url = "https://twitter.com/apostolis09/"
+
+# Theme colors (Green theme)
+[params.style]
+darkestColor = "#1f1f1f"
+darkColor = "#2b2b2b"
+lightColor = "#f4f4f4"
+lightestColor = "#ffffff"
+# primaryColor = "#243e56" #0b6b6a"
+# primaryColor = "#0b6b6a" # dark cyan
+primaryColor = "#333333" # charcoal
+# secondaryColor = "#5a9bd5"
 
 [menu]
-  [[menu.main]]
-    name = "home"
-    #post = "<span class='alert'>New!</span>"
-    #pre = "<i class='fa fa-road'></i>"
-    url = "/"
-    weight = 1
+[[menu.main]]
+name = "home"
+url = "/"
+weight = 1
 
-  # [[menu.main]]
-  #   name = "bio"
-  #   #post = "<span class='alert'>New!</span>"
-  #   #pre = "<i class='fa fa-road'></i>"
-  #   url = "/bio/"
-  #   weight = 1000
+# Uncomment or modify these sections as needed
+# [[menu.main]]
+# name = "bio"
+# url = "/bio/"
+# weight = 1000
 
-  [[menu.main]]
-    name = "projects"
-    #pre = "<i class='fa fa-heart'></i>"
-    url = "/project/"
-    weight = 10000
+[[menu.main]]
+name = "projects"
+url = "/project/"
+weight = 10000
 
-  [[menu.main]]
-    name = "blog"
-    #post = "<span class='alert'>New!</span>"
-    #pre = "<i class='fa fa-road'></i>"
-    url = "/post/"
-    weight = 20000
+[[menu.main]]
+name = "blog"
+url = "/post/"
+weight = 20000
 
-  [[menu.main]]
-    name = "talks"
-    url = "/talks/"
-    weight = 20000
+[[menu.main]]
+name = "talks"
+url = "/talks/"
+weight = 20000
 
-  [[menu.main]]
-    name = "podcasts"
-    url = "/podcasts/"
-    weight = 20000
+[[menu.main]]
+name = "podcasts"
+url = "/podcasts/"
+weight = 20000
 
-  [[menu.main]]
-    name = "books"
-    url = "/books/"
-    weight = 20000
+[[menu.main]]
+name = "books"
+url = "/books/"
+weight = 20000
 
-  [[menu.main]]
-    name = "contact"
-    #pre = "<i class='fa fa-heart'></i>"
-    url = "/contact/"
-    weight = 25000
+[[menu.main]]
+name = "contact"
+url = "/contact/"
+weight = 25000
