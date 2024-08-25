@@ -9,17 +9,20 @@ A Hugo minimalistic theme for bloggers
 ### Installation
 
 Create a new Hugo site:
+
 ```bash
-$ hugo new site [path]
+hugo new site [path]
 ```
 
 Clone this repository into `themes/` directory:
+
 ```bash
-$ cd [path]
-$ git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c
+cd [path]
+git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c
 ```
 
 Add this line  in the `config.toml` file:
+
 ```toml
 theme = "m10c"
 ```

@@ -5,7 +5,7 @@ date = "2019-05-20"
 type = "blog"
 layout = "post"
 +++
-A number of announcements made at [Microsoft Build](https://www.microsoft.com/en-us/build) this year caught my eye. More specifically, I think two of them are pivotal for the future of **.NET**: 
+A number of announcements made at [Microsoft Build](https://www.microsoft.com/en-us/build) this year caught my eye. More specifically, I think two of them are pivotal for the future of **.NET**:
 
 1. **.NET 5** - a merger between all .NET runtimes into one single unified platform.
 2. **Blazor** is now a **preview** rather than experimental
@@ -22,6 +22,7 @@ And on the back of this, Microsoft announced [.NET 5](https://devblogs.microsoft
 "There will be just one .NET going forward, and you will be able to use it to target Windows, Linux, macOS, iOS, Android, 
 tvOS, watchOS and WebAssembly and more."
 ```
+
 Essentially, Microsoft are combining the various runtimes and frameworks (.NET Framework, .NET Core, Mono, Xamarin etc.) into a single .NET runtime and framework that has uniform runtime behaviours and developer experiences - and they're calling it **.NET 5**.
 
 ![](.NET%205.PNG)

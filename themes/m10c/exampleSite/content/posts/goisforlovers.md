@@ -51,7 +51,6 @@ Accessing the Page Parameter "bar"
 
     {{ if or (isset .Params "alt") (isset .Params "caption") }} Caption {{ end }}
 
-
 ## Variables
 
 Each Go template has a struct (object) made available to it. In hugo each
@@ -67,7 +66,6 @@ Variables can also be defined and referenced.
 
     {{ $address := "123 Main St."}}
     {{ $address }}
-
 
 ## Functions
 
@@ -93,7 +91,6 @@ the /layout/ directory within Hugo.
 **Example:**
 
     {{ template "chrome/header.html" . }}
-
 
 ## Logic
 
@@ -128,7 +125,6 @@ range.
 
 If, else, with, or, & and provide the framework for handling conditional
 logic in Go Templates. Like range, each statement is closed with `end`.
-
 
 Go Templates treat the following values as false:
 
@@ -213,7 +209,6 @@ Could be rewritten as
     Stuff Here
     {{ end }}
 
-
 ## Context (aka. the dot)
 
 The most easily overlooked concept to understand about Go templates is that {{ . }}
@@ -242,7 +237,6 @@ through the site configuration (for sitewide values), or through the meta
 data of each specific piece of content. You can define any values of any
 type (supported by your front matter/config format) and use them however
 you want to inside of your templates.
-
 
 ## Using Content (page) Parameters
 
@@ -276,9 +270,8 @@ Here is the corresponding code inside of the template:
         </div>
       {{ end }}
 
-
-
 ## Using Site (config) Parameters
+
 In your top-level configuration file (eg, `config.yaml`) you can define site
 parameters, which are values which will be available to you in chrome.
 
@@ -326,7 +319,6 @@ so, such as in this example:
   {{end}}</ul>
 </nav>
 ```
-
 
 [go]: https://golang.org/
 [gohtmltemplate]: https://golang.org/pkg/html/template/

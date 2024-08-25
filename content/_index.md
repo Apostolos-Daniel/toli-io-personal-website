@@ -3,7 +3,7 @@ title =  "Introduction"
 type = "posts"
 +++
 
-## 👋 Hi 
+## 👋 Hi
 
 Welcome to my website. My full name is Apostolis Daniel Apostolidis. Most people know me as **Toli**.
 
@@ -17,7 +17,7 @@ I love discovering what good, contemporary Engineering Practices look like. I ha
 
 I have a passion for learning; sharing what I've learned with friends and the community in general. You might come across my [talks](talks) at Conferences or Meetups or on [podcasts](podcasts).
 
- > If you are interested in inviting me for a talk or a podcast, feel free to reach out at talks@toli.io.
+ > If you are interested in inviting me for a talk or a podcast, feel free to reach out at <talks@toli.io>.
 
   In the past, I was a co-host of [Behind The Buzzword](https://www.meetup.com/en-AU/Behind-The-Buzz-Word) meetup in Manchester, UK.
 
@@ -28,7 +28,6 @@ I studied what I loved since a kid - Pure Mathematics and Mathematical Physics. 
 ## 🏀 Basketball
 
 I spent most of my life playing basketball at an elite level as a junior and semi-professionally thereafter. I coached U16s for a few years in Nottingham, UK.
-
 
 ## ⬅️ Political Debates
 

@@ -9,7 +9,6 @@ canonical = "https://blog.container-solutions.com/observability-culture-how-to-g
 >
 > I'm re-posting it here for archiving purposes. Additionally, I plan to follow up on this post from 17 months ago with my current thoughts on the topic, given my experience at Flipdish—a restaurant tech startup—and the observability culture I've found there.
 
-
 ## Original Post from March 2023
 
 I’ve spent the last three years at cinch establishing a culture of observability, but what does that mean?
