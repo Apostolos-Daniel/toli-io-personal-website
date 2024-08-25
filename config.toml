@@ -23,6 +23,14 @@ alternate = "Visit Apostolos Daniel's GitHub profile"
 name = "twitter"
 url = "https://twitter.com/apostolis09/"
 alternate = "Visit Apostolis's Twitter profile"
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/apostolosapostolidis/"
+alternate = "Visit Apostolis's LinkedIn profile"
+# [[params.social]]
+# name = "linktree"
+# url = "https://tr.ee/ejWYZBdK6f"
+# alternate = "Visit Apostolis's Linktree"
 
 # Theme colors (Green theme)
 [params.style]
