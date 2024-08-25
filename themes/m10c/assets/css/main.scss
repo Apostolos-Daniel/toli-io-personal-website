@@ -14,3 +14,4 @@ $secondary-color: {{ .Site.Params.style.secondaryColor | default "#5a9bd5" }};  
 @import 'components/posts_list';
 @import 'components/tag';
 @import 'components/header';
+@import 'components/block_quote';

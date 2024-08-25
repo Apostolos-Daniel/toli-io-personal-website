@@ -5,9 +5,10 @@ date = "2024-08-24"
 canonical = "https://blog.container-solutions.com/observability-culture-how-to-gain-understanding-across-the-organisation"
 +++
 
-**Note:** This post was originally published on [Container Solutions' blog](https://blog.container-solutions.com/observability-culture-how-to-gain-understanding-across-the-organisation) in March 2023.
+> **Note:** This post was originally published on [Container Solutions' blog](https://blog.container-solutions.com/observability-culture-how-to-gain-understanding-across-the-organisation) in March 2023.
+>
+> I'm re-posting it here for archiving purposes. Additionally, I plan to follow up on this post from 17 months ago with my current thoughts on the topic, given my experience at Flipdish—a restaurant tech startup—and the observability culture I've found there.
 
-I'm re-posting it here for archiving purposes. Additionally, I plan to follow up on this post from 17 months ago with my current thoughts on the topic, given my experience at Flipdish—a restaurant tech startup—and the observability culture I've found there.
 
 # Original Post from March 2023
 
