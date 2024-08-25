@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "husky": "husky",
     "lint": "markdownlint '**/*.md'",
-    "lint:fix": "markdownlint '**/*.md' --fix"
+    "lint:fix": "markdownlint '**/*.md' --fix",
+    "pa11y": "pa11y http://localhost:1313",
+    "pa11y:watch": "nodemon --watch public --exec npm run pa11y",
+    "pa11y:all": "pa11y https://example.com --runner axe --runner htmlcs"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +18,9 @@
   "devDependencies": {
     "husky": "^9.1.5",
     "lint-staged": "^15.2.9",
-    "markdownlint-cli": "^0.41.0"
+    "markdownlint-cli": "^0.41.0",
+    "nodemon": "^3.1.4",
+    "pa11y": "^8.0.0"
   },
   "lint-staged": {
     "*.md": "markdownlint"
