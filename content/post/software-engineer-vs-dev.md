@@ -14,9 +14,7 @@ Ok. This is not that bad to start with. Maths and Physics is my academic backgro
 
 But then the [profile description](https://github.com/Apostolos-Daniel) continues:
 
-```
-I code primarily in C#. Programming enthusiast. Passionate about basketball.
-```
+> I code primarily in C#. Programming enthusiast. Passionate about basketball.
 
 ### What is a software engineer in 2020?
 
