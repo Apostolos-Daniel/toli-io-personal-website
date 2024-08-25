@@ -4,6 +4,8 @@ title = "Apostolis Apostolidis"
 theme = "m10c"
 paginate = 10
 
+ignoreFiles = ["src/pa11y.js"]
+
 # Blackfriday settings for Markdown
 [blackfriday]
 plainIDAnchors = true

@@ -10,17 +10,22 @@
     "lint:fix": "markdownlint '**/*.md' --fix",
     "pa11y": "pa11y http://localhost:1313",
     "pa11y:watch": "nodemon --watch public --exec npm run pa11y",
-    "pa11y:all": "pa11y https://example.com --runner axe --runner htmlcs"
+    "pa11y:all": "pa11y http://localhost:1313 --runner axe --runner htmlcs",
+    "pa11y:all:live": "pa11y https://www.toli.io --runner axe --runner htmlcs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "module",
   "devDependencies": {
+    "csv-stringify": "^6.5.1",
     "husky": "^9.1.5",
     "lint-staged": "^15.2.9",
     "markdownlint-cli": "^0.41.0",
+    "node-fetch": "^3.3.2",
     "nodemon": "^3.1.4",
-    "pa11y": "^8.0.0"
+    "pa11y": "^8.0.0",
+    "xml2js": "^0.6.2"
   },
   "lint-staged": {
     "*.md": "markdownlint"
