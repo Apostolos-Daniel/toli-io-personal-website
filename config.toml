@@ -18,9 +18,11 @@ homeTitle = "Welcome"
 [[params.social]]
 name = "github"
 url = "https://github.com/apostolos-daniel/"
+alternate = "Visit Apostolos Daniel's GitHub profile"
 [[params.social]]
 name = "twitter"
 url = "https://twitter.com/apostolis09/"
+alternate = "Visit Apostolis's Twitter profile"
 
 # Theme colors (Green theme)
 [params.style]
