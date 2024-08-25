@@ -76,4 +76,62 @@ pre {
   border-radius: 50%; /* Make the image circular */
   object-fit: cover; /* Ensure the image fits within the circle */
   border: 3px solid #333; /* Optional: Add a border for styling */
+}/* Position the hamburger icon on the top-left */
+.app-header-left {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+/* Hamburger icon styling */
+.menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  width: 30px;
+  height: 22px;
+  position: relative;
+
+  span {
+    background: $primary-color;
+    border-radius: 2px;
+    display: block;
+    height: 3px;
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+
+  &:hover span {
+    background: $secondary-color;
+  }
+}
+
+/* Hide the menu by default */
+.nav-menu {
+  display: none;
+  position: absolute;
+  top: 60px;  /* Adjust according to header height */
+  left: 1rem;
+  background-color: $lightest-color;
+  padding: 1rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+
+  a {
+    display: block;
+    padding: 0.5rem 0;
+    color: $dark-color;
+    text-decoration: none;
+    transition: color 0.3s;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+/* Show the menu when the icon is clicked */
+.menu-icon.active + .nav-menu {
+  display: block;
 }

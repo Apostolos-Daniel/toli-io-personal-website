@@ -11,6 +11,18 @@
     {{ $style := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "css/main.scss" . | resources.ToCSS | resources.Minify | resources.Fingerprint -}}
     <link rel="stylesheet" href="{{ $style.Permalink }}" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const menuIcon = document.querySelector('.menu-icon');
+        const navMenu = document.querySelector('.nav-menu');
+    
+        menuIcon.addEventListener('click', function() {
+          menuIcon.classList.toggle('active');
+          navMenu.classList.toggle('show');
+        });
+      });
+    </script>
+    
 
   {{ if .Params.canonical }}
   <link rel="canonical" href="{{ .Params.canonical | safeURL }}">
@@ -23,17 +35,38 @@
       <a href="/" aria-label="Go to homepage"><img class="app-header-avatar" src="./avatar.jpg" aria-label="Profile picture" /></a>
       <h1>{{ .Site.Title }}</h1>
       <p>{{ .Site.Params.description | default "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium." }}</p>
+    
       <div class="app-header-social">
         {{ range .Site.Params.social }}
           <a target="_blank" href="{{ .url }}" aria-label="{{ .alternate }}">{{ partial "icon.html" (dict "ctx" $ "name" .name ) }}</a>
         {{ end }}
       </div>
-    {{ partial "navbar.html" . }}
+      
+      <!-- Social icons and hamburger menu wrapper -->
+      <div class="app-header-left">
+    
+        <!-- Hamburger icon -->
+        <div class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    
+      <!-- Dropdown Menu -->
+      <nav class="nav-menu">
+        {{ range .Site.Menus.main.ByWeight }}
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+      </nav>
+    
     </header>
+    
     <main class="app-container">
       {{ block "main" . }}
         {{ .Content }}
       {{ end }}
     </main>
+    {{ partial "menu-script.html" . }}
   </body>
 </html>
