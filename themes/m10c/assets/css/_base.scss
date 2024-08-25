@@ -69,3 +69,11 @@ pre {
       color: $secondary-color;
   }
 }
+
+.app-header-avatar {
+  width: 200px;
+  height: 200px; 
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image fits within the circle */
+  border: 3px solid #333; /* Optional: Add a border for styling */
+}
