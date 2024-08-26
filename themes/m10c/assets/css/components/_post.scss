@@ -4,7 +4,7 @@
   font-size: 2.1rem;
   letter-spacing: -0.02em;
 
-  &.dark-mode {
+  body.dark-mode {
     color: $lightest-color;
   }
 }
@@ -13,6 +13,12 @@
   pre {
     border-left: 0.4em solid rgba($primary-color, .8);
     padding-left: 1em;
+  }
+
+  body.dark-color & {
+    pre {
+      border-left: 0.4em solid rgba($lightest-color, .8);
+    }
   }
 }
 

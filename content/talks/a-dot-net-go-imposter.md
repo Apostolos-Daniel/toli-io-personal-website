@@ -13,4 +13,3 @@ My first ever public facing talk. It was one of the most nerve racking talk prep
 - [event details](https://www.meetup.com/manchester-web-meetup/events/257988741/)
 - [slides](https://www.beautiful.ai/player/-MZCABNK2u6PNZcKyX7H/A-NET-Go-Imposter-Mcr-Web-Meetup-Jan-23-2019)
 - [youtube video](https://youtu.be/rc-Z02mDKag)
-

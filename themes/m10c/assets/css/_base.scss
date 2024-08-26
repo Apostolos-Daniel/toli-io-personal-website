@@ -20,27 +20,37 @@ body {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Merriweather', serif;
   font-weight: 700;
   color: $darkest-color;
 
-  &.dark-mode {
-    color: $lightest-color;
+  body.dark-mode & {
+    color: $light-color;
   }
 }
 
 a {
-  color: $primary-color;
-  font-weight: 500;
+  color: $primary-color; /* Use a distinct color for links */
+  font-weight: 550;
   text-decoration: none;
 
   &:hover {
-    color: darken($primary-color, 10%);
+    color: $secondary-color; 
     text-decoration: underline;
+  }
 
-    &.dark-mode {
-      color: $lightest-color;
+  body.dark-mode & {
+    color: $light-color;
+
+    &:hover {
+      color: lighten($light-color, 10%);
+      text-decoration: underline;
     }
   }
 }
@@ -50,7 +60,7 @@ pre {
   color: $dark-color;
   overflow: auto;
 
-  &.dark-mode {
+  body.dark-mode & {
     background-color: $darkest-color;
     color: $light-color;
   }
@@ -59,79 +69,120 @@ pre {
 .content {
   padding: 2rem; // Adjust padding as necessary
   margin-bottom: 2rem;
+  background-color: $lightest-color;
+
+  body.dark-mode & {
+    background-color: $dark-color;
+    color: $light-color;
+  }
 }
 
 .icon {
   color: $primary-color;
   transition: color 0.3s;
 
-  &:hover {
-      color: $secondary-color;
+  body.dark-mode & {
+    color: $lightest-color;
+
+    &:hover {
+      color: lighten($lightest-color, 10%);
+    }
+  }
+}
+
+.app-header {
+  background-color: $lightest-color;
+  color: $dark-color;
+
+  body.dark-mode & {
+    background-color: $darkest-color;
+    color: $light-color;
   }
 }
 
 .app-header-avatar {
   width: 200px;
-  height: 200px; 
+  height: 200px;
   border-radius: 50%; /* Make the image circular */
   object-fit: cover; /* Ensure the image fits within the circle */
-  border: 3px solid #333; /* Optional: Add a border for styling */
-}/* Position the hamburger icon on the top-left */
-.app-header-left {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  display: flex;
-  align-items: center;
-}
+  border: 3px solid #333;
 
-/* Hamburger icon styling */
-.menu-icon {
-  cursor: pointer;
-  display: inline-block;
-  width: 30px;
-  height: 22px;
-  position: relative;
-
-  span {
-    background: $primary-color;
-    border-radius: 2px;
-    display: block;
-    height: 3px;
-    margin: 5px 0;
-    transition: 0.4s;
-  }
-
-  &:hover span {
-    background: $secondary-color;
+  body.dark-mode & {
+    border-color: $lightest-color;
   }
 }
 
-/* Hide the menu by default */
-.nav-menu {
-  display: none;
-  position: absolute;
-  top: 60px;  /* Adjust according to header height */
-  left: 1rem;
+footer {
   background-color: $lightest-color;
+  color: $dark-color;
   padding: 1rem;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  z-index: 10;
 
-  a {
-    display: block;
-    padding: 0.5rem 0;
-    color: $dark-color;
-    text-decoration: none;
-    transition: color 0.3s;
+  body.dark-mode & {
+    background-color: $darkest-color;
+    color: $light-color;
+  }
+}
+
+.nav-menu {
+  background-color: $lightest-color;
+  color: $dark-color;
+
+  body.dark-mode & {
+    background-color: $darkest-color;
+    color: $light-color;
+  }
+}
+
+.nav-menu a {
+  color: $primary-color;
+
+  body.dark-mode & {
+    color: $lightest-color;
 
     &:hover {
-      color: $primary-color;
+      color: lighten($lightest-color, 10%);
     }
   }
 }
 
-/* Show the menu when the icon is clicked */
-.menu-icon.active + .nav-menu {
-  display: block;
+
+.button {
+  background-color: $primary-color;
+  color: $lightest-color;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+#theme-toggle {
+  color: $primary-color;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem; /* Adjust this value */
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
+  margin: 0.5rem; /* Adjust margin as needed */
+  position: relative;
+  bottom: 20px;  /* Adjust the distance from the bottom */
+  right: 20px;   /* Optional: Adjust the distance from the right */
+  border-radius: 5px;  /* Optional: Add rounded corners */
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    color: $secondary-color;
+  }
+
+  body.dark-mode & {
+    color: $lightest-color;
+
+    &:hover {
+      color:$secondary-color;
+    }
+  }
 }

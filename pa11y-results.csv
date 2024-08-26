@@ -1,0 +1,9 @@
+url,code,type,message,selector,context
+https://www.toli.io/tags/,WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent,error,"Anchor element found with a valid href attribute, but no link content has been supplied.",html > body > main > article > ul:nth-child(3) > li:nth-child(7) > a,"<a class=""page-link"" href=""/tags/page/2/"">
+      <svg xmlns=""http://www.w...</a>"
+https://www.toli.io/tags/observability/,WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent,error,"Anchor element found with a valid href attribute, but no link content has been supplied.",html > body > main > article > ul:nth-child(3) > li:nth-child(3) > a,"<a class=""page-link"" href=""/tags/observability/page/2/"">
+      <svg xmlns=""http://www.w...</a>"
+https://www.toli.io/tags/presentation/,WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent,error,"Anchor element found with a valid href attribute, but no link content has been supplied.",html > body > main > article > ul:nth-child(3) > li:nth-child(3) > a,"<a class=""page-link"" href=""/tags/presentation/page/2/"">
+      <svg xmlns=""http://www.w...</a>"
+https://www.toli.io/talks/,WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent,error,"Anchor element found with a valid href attribute, but no link content has been supplied.",html > body > main > article > ul:nth-child(3) > li:nth-child(3) > a,"<a class=""page-link"" href=""/talks/page/2/"">
+      <svg xmlns=""http://www.w...</a>"

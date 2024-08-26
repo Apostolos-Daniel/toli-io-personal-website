@@ -4,8 +4,7 @@
   text-align: center;
   color: $darkest-color;  /* Light mode text color */
 
-  /* Dark mode */
-  .dark-mode & {
+  body.dark-mode & {
     background: $darkest-color;  /* Dark mode background */
     color: $lightest-color;  /* Dark mode text color */
   }
@@ -22,7 +21,7 @@
   padding: 2.5rem;
   
   /* Dark mode */
-  .dark-mode & {
+  body.dark-mode & {
     background-color: $dark-color;
     color: $light-color;
   }
@@ -37,7 +36,7 @@
   }
 
   /* Dark mode */
-  .dark-mode & {
+  body.dark-mode & {
     color: $lightest-color;  /* Light color for social icons in dark mode */
   }
 }
@@ -52,7 +51,7 @@
     background: $lightest-color;  /* Light mode for larger screens */
 
     /* Dark mode */
-    .dark-mode & {
+    body.dark-mode & {
       background: $darkest-color;  /* Dark mode background for larger screens */
     }
   }
@@ -62,7 +61,7 @@
     margin-left: 20rem;
 
     /* Dark mode */
-    .dark-mode & {
+    body.dark-mode & {
       background-color: $dark-color;
       color: $light-color;
     }

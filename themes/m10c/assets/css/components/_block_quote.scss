@@ -2,6 +2,9 @@
 $blockquote-border-color: #dfe2e5;
 $blockquote-background-color: #f7f8fa;
 $blockquote-text-color: #333;
+$blockquote-border-color-dark: #333;
+$blockquote-background-color-dark: #333;
+$blockquote-text-color-dark: #dfe2e5;
 $blockquote-padding: 1rem;
 $blockquote-margin: 1.5rem 0;
 $blockquote-font-style: normal;
@@ -14,6 +17,11 @@ blockquote {
   margin: $blockquote-margin;
   font-style: $blockquote-font-style;
   color: $blockquote-text-color;
+  body.dark-mode & {
+    border-left: 4px solid $blockquote-border-color-dark;
+    background-color: darken($blockquote-background-color-dark, 5%);
+    color: lighten($blockquote-text-color-dark, 10%);
+  }
 
   p {
     margin: 0; /* Remove default paragraph margins */
@@ -26,6 +34,13 @@ blockquote {
 
     &:hover {
       color: darken($blockquote-text-color, 10%);
+    }
+    body.dark-mode & {
+      color: $blockquote-text-color-dark;
+
+      &:hover {
+        color: lighten($blockquote-text-color-dark, 10%);
+      }
     }
   }
 }

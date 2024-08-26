@@ -8,8 +8,8 @@
   padding: 0.4em 0;
 
   /* Dark Mode Adjustment */
-  .dark-mode & {
-    border-bottom: 1px dashed $light-color;  /* Lighter border for dark mode */
+  body.dark-mode & {
+    border-bottom: 1px dashed $lightest-color;  /* Lighter border for dark mode */
   }
 }
 
