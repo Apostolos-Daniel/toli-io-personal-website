@@ -158,31 +158,3 @@ footer {
     background-color: darken($primary-color, 10%);
   }
 }
-
-#theme-toggle {
-  color: $primary-color;
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 1.2rem; /* Adjust this value */
-  padding: 0.5rem 1rem; /* Adjust padding as needed */
-  margin: 0.5rem; /* Adjust margin as needed */
-  position: relative;
-  bottom: 20px;  /* Adjust the distance from the bottom */
-  right: 20px;   /* Optional: Adjust the distance from the right */
-  border-radius: 5px;  /* Optional: Add rounded corners */
-  border: none;
-  cursor: pointer;
-
-  &:hover {
-    color: $secondary-color;
-  }
-
-  body.dark-mode & {
-    color: $lightest-color;
-
-    &:hover {
-      color:$secondary-color;
-    }
-  }
-}

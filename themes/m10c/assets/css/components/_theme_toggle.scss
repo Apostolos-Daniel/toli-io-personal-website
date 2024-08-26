@@ -1,0 +1,26 @@
+
+#theme-toggle {
+    color: $primary-color;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem; /* Adjust this value */
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+    position: absolute; /* Fix the button to the screen */
+    top: 10px; /* Distance from the top */
+    right: 2px; /* Distance from the right */
+    border-radius: 5px; /* Optional: Add rounded corners */
+  
+    &:hover {
+      color: $secondary-color;
+    }
+  
+    body.dark-mode & {
+      color: $lightest-color;
+  
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+  

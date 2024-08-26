@@ -1,72 +1,73 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} // {{ .Site.Title }}{{ end }}</title>
-    <meta charset="utf-8" />
-    <meta name="generator" content="Hugo {{ hugo.Version }}" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="{{ .Site.Params.author | default "John Doe" }}" />
-    <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" />
-    <base href="{{ .Site.BaseURL }}" />
-    {{ $style := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "css/main.scss" . | resources.ToCSS | resources.Minify | resources.Fingerprint -}}
-    <link rel="stylesheet" href="{{ $style.Permalink }}" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const menuIcon = document.querySelector('.menu-icon');
-        const navMenu = document.querySelector('.nav-menu');
-    
-        menuIcon.addEventListener('click', function() {
-          menuIcon.classList.toggle('active');
-          navMenu.classList.toggle('show');
-        });
-      });
-    </script>
-    
+
+<head>
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} // {{ .Site.Title }}{{ end }}</title>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo {{ hugo.Version }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="{{ .Site.Params.author | default " John Doe" }}" />
+  <meta name="description"
+    content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" />
+  <base href="{{ .Site.BaseURL }}" />
+  {{ $style := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "css/main.scss" . | resources.ToCSS |
+  resources.Minify | resources.Fingerprint -}}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
 
   {{ if .Params.canonical }}
   <link rel="canonical" href="{{ .Params.canonical | safeURL }}">
   {{ else }}
   <link rel="canonical" href="{{ .Permalink | safeURL }}">
   {{ end }}
-  </head>
-  <body>
-    <header class="app-header">
-      <a href="/" aria-label="Go to homepage"><img class="app-header-avatar" src="./avatar.jpg" aria-label="Profile picture" alt="Profile picture" /></a>
-      <h1>{{ .Site.Title }}</h1>
-      <p>{{ .Site.Params.description | default "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium." }}</p>
-    
-      <div class="app-header-social">
-        {{ range .Site.Params.social }}
-          <a target="_blank" href="{{ .url }}" aria-label="{{ .alternate }}">{{ partial "icon.html" (dict "ctx" $ "name" .name ) }}</a>
-        {{ end }}
-      </div>
-      
-      <!-- Social icons and hamburger menu wrapper -->
-      <div class="app-header-left">
-    
-        <!-- Hamburger icon -->
-        <div class="menu-icon">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-    
-      <!-- Dropdown Menu -->
-      <nav class="nav-menu">
-        {{ range .Site.Menus.main.ByWeight }}
-          <a href="{{ .URL }}">{{ .Name }}</a>
-        {{ end }}
-      </nav>
-    
-    </header>
-    
-    <main class="app-container">
-      {{ block "main" . }}
-        {{ .Content }}
+</head>
+
+<body>
+  <header class="app-header">
+    <a href="/" aria-label="Go to homepage"><img class="app-header-avatar" src="./avatar.jpg"
+        aria-label="Profile picture" alt="Profile picture" /></a>
+    <h1>{{ .Site.Title }}</h1>
+    <p>{{ .Site.Params.description | default "Lorem ipsum dolor sit amet, consectetur adipiscing elit." }}</p>
+
+    <div class="app-header-social">
+      {{ range .Site.Params.social }}
+      <a target="_blank" href="{{ .url }}" aria-label="{{ .alternate }}">{{ partial "icon.html" (dict "ctx" $ "name"
+        .name ) }}</a>
       {{ end }}
-    </main>
-    {{ partial "menu-script.html" . }}
-  </body>
+    </div>
+
+    <div class="app-header-right">
+      <button id="theme-toggle" aria-label="Dark Mode" title="Dark Mode">🌙</button>
+      {{ partial "dark-mode-toggle.html" . }}
+    </div>
+
+    <!-- Social icons and hamburger menu wrapper -->
+    <div class="app-header-left">
+
+      <!-- Hamburger icon -->
+      <div class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <!-- Dropdown Menu -->
+    <nav class="nav-menu">
+      {{ range .Site.Menus.main.ByWeight }}
+      <a href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+    </nav>
+
+  </header>
+
+  <main class="app-container">
+    {{ block "main" . }}
+    {{ .Content }}
+    {{ end }}
+  </main>
+  {{ partial "menu-script.html" . }}
+</body>
+
 </html>
