@@ -1,6 +1,6 @@
 +++
 title = "Observability culture: How to gain understanding across the organisation"
-tags = ["software"]
+tags = ["software", "engineering", "sociotechnical", "culture", "observability", "o11y"]
 date = "2024-08-24"
 canonical = "https://blog.container-solutions.com/observability-culture-how-to-gain-understanding-across-the-organisation"
 +++
