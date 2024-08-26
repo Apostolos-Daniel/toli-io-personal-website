@@ -15,3 +15,4 @@ $secondary-color: {{ .Site.Params.style.secondaryColor | default "#5a9bd5" }};  
 @import 'components/tag';
 @import 'components/header';
 @import 'components/block_quote';
+@import 'components/youtube';

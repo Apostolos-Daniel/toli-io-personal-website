@@ -5,11 +5,30 @@
     <ul class="posts-list">
       {{ range $index, $element := .Paginator.Pages }}
         <li class="posts-list-item">
+          <!-- Title with link -->
           <a class="posts-list-item-title" href="{{ .Permalink }}">{{ .Title }}</a>
           <br>
+
+          <!-- Conference link if available -->
           {{ if isset .Params "conference" }}
             <a target="_blank" class="posts-list-item-description" href="{{ .Params.ConferenceUrl }}">👥 {{.Params.Conference }}</a>
           {{ end }}
+
+<div class="youtube-thumbnail">
+    <img src="https://img.youtube.com/vi/q2LV88YmYp4/mqdefault.jpg" alt="{{ .Title }} YouTube Thumbnail">
+</div>
+
+
+          <!-- Check if YouTube URL exists before rendering the thumbnail -->
+          {{ if isset .Params "youtubeId" }}
+            <div class="youtube-thumbnail">
+              <a target="_blank" href="{{ .Params.youtubeId }}">
+                <img src="https://img.youtube.com/vi/{{ .Params.youtubeId }}/mqdefault.jpg" alt="{{ .Title }} YouTube Thumbnail">
+              </a>
+            </div>
+          {{ end }}
+
+          <!-- Post metadata -->
           <span class="posts-list-item-description">
             {{ partial "icon.html" (dict "ctx" $ "name" "clock") }} {{ .ReadingTime }} min read -
             {{ .PublishDate.Format "Jan 2, 2006" }}
