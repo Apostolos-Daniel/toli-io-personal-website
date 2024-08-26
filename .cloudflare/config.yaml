@@ -1,0 +1,33 @@
+# .cloudflare/config.yml
+
+# Specify the Hugo version (optional but recommended)
+hugo_version: 0.114.1
+
+# Define the build command and output directory
+build:
+  command: hugo
+  output_directory: public
+
+# Optional: Environment variables for the build
+env:
+  HUGO_ENV: production
+  # Add other environment variables if needed
+
+# Deployment settings (optional)
+deployment:
+  # Specify production and preview branch behavior
+  production_branch: master
+  # preview_branch:
+  #   - develop
+  #   - feature/*
+
+# Optionally configure settings for different branches or environments
+environments:
+  # preview:
+  #   build:
+  #     command: hugo -D # Include drafts in previews
+  production:
+    build:
+      command: hugo
+    env:
+      HUGO_ENV: production
