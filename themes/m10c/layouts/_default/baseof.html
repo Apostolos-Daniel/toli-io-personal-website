@@ -59,7 +59,8 @@
       <a href="{{ .URL }}">{{ .Name }}</a>
       {{ end }}
     </nav>
-    <nav>
+    <!-- Desktop Menu (Visible on Desktop only) -->
+    <nav class="desktop-menu">
       {{ range .Site.Menus.main.ByWeight }}
       <a href="{{ .URL }}">{{ .Name }}</a>
       {{ end }}

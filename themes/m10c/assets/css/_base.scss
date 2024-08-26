@@ -124,6 +124,7 @@ footer {
 }
 
 .nav-menu {
+  display: none; /* Hide the mobile menu on larger screens */
   background-color: $lightest-color;
   color: $dark-color;
 
@@ -156,5 +157,26 @@ footer {
 
   &:hover {
     background-color: darken($primary-color, 10%);
+  }
+}
+
+/* Default (Desktop) */
+.desktop-menu {
+  display: block; /* Show the menu on larger screens */
+}
+
+/* Mobile (less than 768px) */
+@media (max-width: 768px) {
+  .nav-menu {
+    display: flex; /* Show the mobile menu on small screens */
+    flex-direction: column; /* Stack the items vertically */
+  }
+
+  .desktop-menu {
+    display: none; /* Hide the desktop menu on small screens */
+  }
+
+  .menu-icon {
+    display: block; /* Show the hamburger icon on small screens */
   }
 }
