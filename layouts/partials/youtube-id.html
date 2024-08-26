@@ -1,0 +1,5 @@
+{{ $url := . }}
+{{ $id := $url | replace "https://www.youtube.com/watch?v=" "" }}
+{{ $id := $id | replace "https://youtu.be/" "" }}
+{{ $id := $id | replace "&.*" "" }}  <!-- In case of extra parameters -->
+{{ $id }}
