@@ -1,0 +1,9 @@
+.app-header-avatar {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px;
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image fits within the circle */
+    border: 3px solid #333; /* Optional: Add a border */
+    margin-top: 20px; /* Move the avatar lower */
+  }
+  

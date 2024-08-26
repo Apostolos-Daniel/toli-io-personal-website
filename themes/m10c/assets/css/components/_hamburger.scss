@@ -1,0 +1,94 @@
+/* Header wrapper */
+.app-header-left {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+    display: none;  /* Hidden by default */
+    position: absolute;
+    top: 60px;
+    left: 1rem;
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    z-index: 10;
+    flex-direction: column;  /* Vertical layout */
+    gap: 15px;  /* Space between items, increased for better spacing */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+.nav-menu.show {
+    display: flex;  /* Show the menu when 'show' class is added */
+}
+
+/* Style for individual links */
+.nav-menu a {
+    padding: 10px 20px;  /* Increase padding for larger clickable area */
+    color: $dark-color;  /* Adjust the link color */
+    text-decoration: none;  /* Remove underline */
+    border-radius: 4px;  /* Slight rounding for links */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+
+    &:hover {
+        background-color: $primary-color;  /* Change background on hover */
+        color: $lightest-color;  /* Change text color on hover */
+    }
+
+    body.dark-mode & {
+        color: $light-color; /* Adjust color for dark mode */
+
+        &:hover {
+            background-color: $lightest-color;
+            color: $dark-color;
+        }
+    }
+}
+
+/* Hamburger icon styling */
+.menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    width: 30px;
+    height: 22px;
+    position: relative;
+    margin-left: 1rem;
+
+    span {
+        background: $primary-color;
+        border-radius: 2px;
+        display: block;
+        height: 3px;
+        margin: 5px 0;
+        transition: 0.4s;
+    }
+
+    &:hover span {
+        background: $secondary-color;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+        /* Hide the traditional navbar on small screens */
+    }
+
+    .menu-icon {
+        display: inline-block;
+        /* Show the hamburger icon */
+    }
+
+    .nav-menu {
+        width: 100%;
+        /* Full-width menu on smaller screens */
+        top: 50px;
+        right: 0;
+        padding: 1rem;
+        box-shadow: none;
+        border-radius: 0; /* Remove rounding for full-width menus */
+    }
+}

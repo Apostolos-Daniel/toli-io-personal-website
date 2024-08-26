@@ -3,8 +3,9 @@
   font-family: 'Merriweather', serif; 
   font-size: 2.1rem;
   letter-spacing: -0.02em;
+  line-height: 1.4; /* Adjust line height to reduce space between lines */
 
-  body.dark-mode {
+  body.dark-mode & {
     color: $lightest-color;
   }
 }
