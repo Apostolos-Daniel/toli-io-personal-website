@@ -17,3 +17,4 @@ $secondary-color: {{ .Site.Params.style.secondaryColor | default "#5a9bd5" }};  
 @import 'components/block_quote';
 @import 'components/hamburger';
 @import 'components/theme_toggle';
+@import 'components/avatar';
