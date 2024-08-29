@@ -1,0 +1,16 @@
+code {
+    font-family: 'Fira Code', monospace; /* Use a monospace font, but you can change it */
+    background-color: $lightest-color; /* Light background to make it stand out */
+    color: $primary-color; /* Custom color for the text */
+    padding: 0.2em 0.4em; /* Add some padding for better readability */
+    border-radius: 4px; /* Rounded corners */
+    border: 1px solid #e1e1e1; /* Optional: add a subtle border */
+    font-size: 0.95em; /* Slightly reduce font size to differentiate it */
+
+    body.dark-mode & {
+        background-color: $darkest-color; /* Adjust background color for dark mode */
+        color: $light-color; /* Adjust text color for dark mode */
+        border: 1px solid #444; /* Adjust border color for dark mode */
+    }
+  }
+  

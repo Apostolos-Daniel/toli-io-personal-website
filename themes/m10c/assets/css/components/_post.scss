@@ -26,3 +26,23 @@
 .post-meta {
   font-size: 0.8em;
 }
+
+.post-content a {
+  font-weight: 500;
+  text-decoration: underline;
+  transition: color 0.3s; // Smooth transition for hover effects
+
+  &:hover {
+    color: darken($primary-color, 10%); // Darken the color slightly on hover
+    text-decoration: underline; // Add underline on hover
+  }
+
+  /* Dark mode styling */
+  body.dark-mode & {
+    color: $light-color; // Adjust color for dark mode
+
+    &:hover {
+      color: lighten($light-color, 10%); // Lighten the color slightly on hover in dark mode
+    }
+  }
+}

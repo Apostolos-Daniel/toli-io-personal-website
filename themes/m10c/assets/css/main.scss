@@ -18,3 +18,5 @@ $secondary-color: {{ .Site.Params.style.secondaryColor | default "#5a9bd5" }};  
 @import 'components/hamburger';
 @import 'components/theme_toggle';
 @import 'components/avatar';
+@import 'components/image';
+@import 'components/code';
