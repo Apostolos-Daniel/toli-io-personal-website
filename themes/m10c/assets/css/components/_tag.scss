@@ -1,23 +1,26 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem; /* Space between tags */
+  margin-top: 1rem; /* Space above the tags */
+}
+
 .tag {
   display: inline-block;
-  margin-right: 0.2em;
-  padding: 0 0.6em;
-  font-size: 0.9em;
-  border-radius: 0.2em;
-  white-space: nowrap;
-  background: rgba(255, 255, 255, 0.1);
-  transition: background 0.8s;
-
-  &:hover {
-    background: rgba(255, 255, 255, 0.3);
-  }
-
-  /* Dark mode */
+  background-color: $lightest-color; /* Box background color */
+  color: $dark-color; /* Text color */
+  font-size: 0.85rem;
+  padding: 0.1rem 0.3rem; /* Adjust padding for better spacing */
+  margin: 0.2rem; /* Space between the boxes */
+  border-radius: 0; /* No rounded corners */
+  text-decoration: none; /* No underline */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  
   body.dark-mode & {
-    background: rgba(0, 0, 0, 0.1);
+    background-color: $primary-color;
 
     &:hover {
-      background: rgba(0, 0, 0, 0.3);
+      color: $secondary-color;
     }
   }
 }
