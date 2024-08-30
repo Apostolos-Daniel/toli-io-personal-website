@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "husky": "husky",
     "lint": "markdownlint '**/*.md'",
+    "lint:cspell": "npx cspell --no-summary '**/*.md'",
     "lint:fix": "markdownlint '**/*.md' --fix",
     "pa11y": "pa11y http://localhost:1313",
     "pa11y:watch": "nodemon --watch public --exec npm run pa11y",
@@ -18,6 +19,7 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "cspell": "^8.14.2",
     "csv-stringify": "^6.5.1",
     "husky": "^9.1.5",
     "lint-staged": "^15.2.9",
@@ -28,6 +30,10 @@
     "xml2js": "^0.6.2"
   },
   "lint-staged": {
-    "*.md": "markdownlint"
+    "*.md": [
+      "markdownlint",
+      "cspell --no-summary --no-progress"
+    ],
+    "*.js": "eslint --fix"
   }
 }

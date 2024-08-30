@@ -1,8 +1,8 @@
----
-title: "Restyling my personal website"
-date: 2024-08-31
-draft: true
----
++++
+title = "Restyling my personal website"
+tags = ["website", "css", "design", "chatgpt"]
+date = "2024-08-30"
++++
 
 I use my personal website for 3 reasons:
 
@@ -10,7 +10,7 @@ I use my personal website for 3 reasons:
 2. To have a **place to write** about my thoughts
 3. To have a place to keep a record of **my public appearances** related to tech - talks, podcasts etc.
 
-On thing that has been bugging me ever since I started this website - circa 2019 - is that although I liked the look and feel of the website, I **never enjoyed reading a blog post** on it. There was something that put me off. And if it put me off, I could imagine that it put others off too. This is what my website looked like:
+One thing that has been bugging me ever since I started this website - circa 2019 - is that although I liked the look and feel of the website, I **never enjoyed reading a blog post** on it. There was something that put me off. And if it put me off, I imagine that it put others off too. This is what my website looked like:
 
 ![Old website](/old-website.png)
 *My old website at first glance sort of looks nice, no?*
@@ -44,7 +44,7 @@ And it looks great on mobile too 💥
 
 | ![New website mobile light](new-website-mobile-light.png) | ![New website mobile dark](new-website-mobile-dark.png) |
 |:-----------------------------:|:-----------------------------:|
-| *Mobile (light mode)*     | *Modile (dark mode)*    |
+| *Mobile (light mode)*     | *Mobile (dark mode)*    |
 
 ## The detail
 
@@ -53,11 +53,12 @@ I made a few changes that contributed to this result but - from memory - these a
 1. **I changed the main theme to light mode**: I thought I liked dark mode but actually what I really ever wanted is the choice to have light and dark mode and critically that the font colour and the background colour contrast well. I think I've achieved that.
 2. **I changed the font to sans serif**: I think is easier to read. I chose `Roboto` because I use it at work and I kinda like it.
 3. **I increased the font size**: I think it's easier to read now.
-4. **I changed the font of all the titles**: to `Merriweather`. I think the font difference hetween title and body text looks nice.
+4. **I changed the font of all the titles**: to `Merriweather`. I think the font difference between title and body text looks nice.
 5. **I introduced a dark theme as option**: I want to have the *option* to switch to dark mode when I wanted to. I enjoyed writing the javascript for this that essentially switches the theme by changing the class of the body
 6. **I changed the layout of the blog posts**: I think it's easier to read now. I've increased the width of the text and I've added a bit of padding to the sides. I think it looks way nicer.
 7. **I made my website accessible by default**: it really is not that hard to make a website accessible. There's tooling out there - chrome extensions (I used [Site Improve Accessibility Checker](https://www.siteimprove.com/)) and Pa11y to get some results via a CLI. I may be missing some bits but now I have a feedback loop to make it better.
 8. **I added a hamburger menu**: I only did this for readability on mobile. I think it looks nice and it's easy to use.
+9. **I shift left on formatting and spelling my content**: I introduced tooling like [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) for formatting markdown files - the files that I use to write my blog posts. I also introduced [cspell](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) to check my spelling.
 
 ## What's next
 

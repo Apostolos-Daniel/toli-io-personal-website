@@ -4,7 +4,7 @@ tags = ["software", "engineering", "conference", "agile", "product", "learning",
 date = "2023-06-30"
 +++
 
-You go to a 3-day conference, which in reality means you are on a rollercoaster of keynotes, breakout talks, workshops and networking (oh and coffee and food). You get on the train back home and you wonder:
+You go to a 3-day conference, which in reality means you are on a roller coaster of keynotes, breakout talks, workshops and networking (oh and coffee and food). You get on the train back home and you wonder:
 
 What just happened?
 
@@ -18,7 +18,7 @@ The conference was hosted at a central hotel in Bath - a city you must visit if 
 
 ## 🎓 What I learnt
 
-You can often feel completely overwhelemed or underwhelmed at multi-day conference. At Agile in the City I was the perfect amount of "whelmed".
+You can often feel completely overwhelmed or underwhelmed at multi-day conference. At Agile in the City I was the perfect amount of "whelmed".
 
 There are a few things I learnt that I want to explore more. While reflecting on the train back to Leeds, and because you asked for it Andy, I noticed 3 themes at the conference:
 
@@ -81,7 +81,7 @@ As a side note, I was impressed by the clarity of content, Willem's relaxed and 
 
 ### Experimentology - test & learn like a boss
 
-"Everything does what they want" is not agile and "give them a boundary of freedom, define the interface between people and teams" set the tone for this [experiemntal approach to organisational change](https://bristol.agileinthecity.net/programme/experimentology-test-learn-boss) by Gez Smith and Jonathan Churchward. The premise is to take iterative, small steps to organistaional change - avoiding big bang changes that lead to "transoformation debt". The workshop walked led each table through creating a small experiment to change via a template provided.
+"Everything does what they want" is not agile and "give them a boundary of freedom, define the interface between people and teams" set the tone for this [experimental approach to organisational change](https://bristol.agileinthecity.net/programme/experimentology-test-learn-boss) by Gez Smith and Jonathan Churchward. The premise is to take iterative, small steps to organisational change - avoiding big bang changes that lead to "transformation debt". The workshop walked led each table through creating a small experiment to change via a template provided.
 
 Gez and Jonathan have created a website were experiments can be submitted so that we can start building a public knowledge base of organisational change experiments, so that we learn from each other and from the past. Each organisation is different but as the popularity of Team Topologies has proven, there are definitely things that are common and shared across organisations.
 
@@ -102,7 +102,7 @@ I really do hope that we start talking more in terms of alignment to value strea
 
 ## Learning & growing capabilities
 
-I have spent enough years now working in software-centric businesses that I can clearly see the value of learning in any company. Learning is a core capability that makes or breaks a company. There were plenty of talks that explored this theme at the confrence.
+I have spent enough years now working in software-centric businesses that I can clearly see the value of learning in any company. Learning is a core capability that makes or breaks a company. There were plenty of talks that explored this theme at the conference.
 
 ### How teams remember
 
@@ -110,21 +110,21 @@ I have spent enough years now working in software-centric businesses that I can 
 
 Giles Turnbull - [The Agile Comms](https://agilecommshandbook.com/) author (yes, read it!) - talked about how various organisations remember their history. Often we get so caught up in doing the work in front of us that we miss important knowledge about how the organisation got to where it is now.
 
-Key takeaway: start weeknotes, be creative. Someone (maybe Giles?) will turn it into a history record one day.
+Key takeaway: start week notes, be creative. Someone (maybe Giles?) will turn it into a history record one day.
 
 ### Embrace the power of product thinking
 
-This keynote by [Alia Shafir](https://www.linkedin.com/in/aliashafir/), was less about Product Thinking itself but more about how you grow the capability of Product Thinking in a *gigantic* organisation like Bloomberg. However, we got a sneak peak in Bloomberg's principles for good Product Managenet in the 4 Cs (Clarity, Competency, Collaboration and Consistency).
+This keynote by [Alia Shafir](https://www.linkedin.com/in/aliashafir/), was less about Product Thinking itself but more about how you grow the capability of Product Thinking in a *gigantic* organisation like Bloomberg. However, we got a sneak peak in Bloomberg's principles for good Product Management in the 4 Cs (Clarity, Competency, Collaboration and Consistency).
 
 ![The 4 Cs](../the-4-Cs.jpg)
 
-The appraoch to growth was to build a bootcamp program to train new Product Managers. Alia's story was a story of reminders to take a lean approach, shorten feedback loops and prioritise ruthlessly.
+The approach to growth was to build a boot camp program to train new Product Managers. Alia's story was a story of reminders to take a lean approach, shorten feedback loops and prioritise ruthlessly.
 
 I'd be interested to see whether peer to peer learning structures like Communities of Practice might help in these scenarios, especially in such an emerging and confusing discipline like Product Management.
 
 ### Stop trying to learn like a robot & start learning like a human being
 
-A lovely workshop by X and Y exploring the practics and techniques you can use to learn together, collaboratively.
+A lovely workshop by X and Y exploring the practices and techniques you can use to learn together, collaboratively.
 
 Key learning point: learning and thinking together almost always leads to better and more diverse learning.
 
@@ -132,17 +132,17 @@ Key learning point: learning and thinking together almost always leads to better
 
 ### The Shape of Thoughts
 
-Gemma Honour taught us how to draw, and gave us some great tips on how to help teams think together effetively through:
+Gemma Honour taught us how to draw, and gave us some great tips on how to help teams think together effectively through:
 
 1. clearing the mental clutter: categorise things, de-duplicate and theme, use venn diagrams, prioritise.
-2. creatign a great culture via stories
-3. imrpove your problem solving via metaphors (hero and victim being an example for the case of call centres)
+2. creating a great culture via stories
+3. improve your problem solving via metaphors (hero and victim being an example for the case of call centres)
 
-I am intrigued now to learn the basics of drawing so that I can quickly visualise something for myself or a group to undertand.
+I am intrigued now to learn the basics of drawing so that I can quickly visualise something for myself or a group to understand.
 
 ## 🫶 What I plan to do
 
-I met so many interesting and fascinating people. I am convinced that practicing event storming sessions regularly is a good idea, and I hope to do it more often in my new role. I'm also fascinated by an idea presented by Anne Deir: the value of thinking about "how you might kill a service", at design phase. Currently, most companies don't think about this at all, leading to all sorts of problems: waste, security vulnerability, unwanted costs, increased cognitive load on teams etc. Not sure how, but would love to explore this more.
+I met so many interesting and fascinating people. I am convinced that practising event storming sessions regularly is a good idea, and I hope to do it more often in my new role. I'm also fascinated by an idea presented by Anne Deir: the value of thinking about "how you might kill a service", at design phase. Currently, most companies don't think about this at all, leading to all sorts of problems: waste, security vulnerability, unwanted costs, increased cognitive load on teams etc. Not sure how, but would love to explore this more.
 
 ## You should try one
 

@@ -23,4 +23,4 @@ Ever since I was a kid, I've been fascinated by mathematics. I pursued Maths by 
 
 ## 🏀 My Love for Basketball
 
-Basketball has been a huge part of my life. I played at an elite level as a junior and continued semi-professionally in Greece. I even had the pleasure of coaching juniors for a few years in Nottingham, UK. The basketball court has always been a place where I find joy, sollace and discipline.
+Basketball has been a huge part of my life. I played at an elite level as a junior and continued semi-professionally in Greece. I even had the pleasure of coaching juniors for a few years in Nottingham, UK. The basketball court has always been a place where I find joy, solace and discipline.

@@ -43,7 +43,7 @@ Ever since .NET Core was announced and version **1.0** was released, the .NET co
 
 > "New applications should be built on .NET Core. .NET Core is where future investments in .NET will happen."
 
-For me, this is a **positive** development. I prefer that Microsoft communicates this to the .NET community early, rather than pretending to sit on the fence. .NET Framework is being actively deprioritised, all future releases will be based on **.NET Core**.
+For me, this is a **positive** development. I prefer that Microsoft communicates this to the .NET community early, rather than pretending to sit on the fence. .NET Framework is being actively de-prioritised, all future releases will be based on **.NET Core**.
 
 #### November 2020
 
@@ -55,7 +55,7 @@ I'll try to document this process in a series of future blog posts.
 
 ## Blazor
 
-The other thing that caught my eye and got me excited is the [announcement of Blazor](https://mybuild.techcommunity.microsoft.com/sessions/77033?source=sessions#top-anchor) not being experimental anymore - it's now in **preview**. Blazor was a project that started just a couple of years ago when Microsoft decided to jump on the **WebAssembly** band waggon.
+The other thing that caught my eye and got me excited is the [announcement of Blazor](https://mybuild.techcommunity.microsoft.com/sessions/77033?source=sessions#top-anchor) not being experimental any more - it's now in **preview**. Blazor was a project that started just a couple of years ago when Microsoft decided to jump on the **WebAssembly** band waggon.
 
 ### Web Assembly
 

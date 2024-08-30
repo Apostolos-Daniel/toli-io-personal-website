@@ -60,7 +60,7 @@ You have to test the software, not only make it testable. Similarly, you have to
 
 As Adrian Cockcroft has noted, observability alone [won’t quite cut it](https://blog.container-solutions.com/adrian-cockcroft-on-serverless-continuous-resilience?utm_campaign=Newsletter%20-%20WTF%20is%20Cloud%20Native&utm_medium=email&_hsmi=244795178&utm_content=244795178&utm_source=hs_email).
 
-> ...fundamentally, observability as a property means you can construct the behavior of a system from its externally visible components. So if you have a black box system, if it is exporting enough information about what it's doing that you can predict its behavior, that is what observability is.
+> ...fundamentally, observability as a property means you can construct the behaviour of a system from its externally visible components. So if you have a black box system, if it is exporting enough information about what it's doing that you can predict its behaviour, that is what observability is.
 >
 > And what we're doing with our systems is trying to get better. So tracing and some of these things definitely give you better observability on what's going on inside a system.
 >
@@ -70,9 +70,6 @@ Our solution to this at cinch has been to cultivate a culture of curiosity.
 
 ### Being Curious
 
-<!-- ![observability journey](o11y-journey.webp) -->
-<img src="/o11y-journey.webp" alt="observability journey">
-
 It has to be said that the practice of observability is still not as cool and popular as its testability counterpart. People will not, as a rule, bring it up in interviews to impress, and likewise, interviewers will not ask questions about it.
 
 Because it isn’t a common area of study, my experience is that people will not know where to start with observability. Equally, you may have an existing system in place and an observability approach that is simply not working. Whether you are starting fresh or you are starting off with an existing approach, there are things you have to get right when you first start out:
@@ -81,7 +78,7 @@ Because it isn’t a common area of study, my experience is that people will not
 
 2. **Democratize the tool, and give everyone access:** You can’t establish a culture of curiosity if you don’t make the tool accessible. Prioritize access and ease of use over minor cost savings, as this will benefit the company in the long run. Getting buy-in for this type of investment is a good indicator that the company values democratizing understanding.
 
-3. **Create and promote learning structures:** Foster a learning culture through things like a Community of Interest (in observability) and working groups. Both of these example structures favor collaborative over individual learning so that people from different teams go on the observability journey together and bring back their learnings to their teams.
+3. **Create and promote learning structures:** Foster a learning culture through things like a Community of Interest (in observability) and working groups. Both of these example structures favour collaborative over individual learning so that people from different teams go on the observability journey together and bring back their learnings to their teams.
 
 4. **Add observability to the "golden path":** For observability to be taken seriously, it has to be part of the company’s golden path, i.e., the way software engineering is done in the company. Hopefully, testability is on there already.
 
@@ -144,7 +141,7 @@ This is where observability has the potential to blur the lines. Rather than ana
 
 ### Observability Is a Bigger Deal than Testability
 
-Observability is bigger than its counterpart, testability. Testability enables rigorous lab testing, whereas observability enables widespread field testing. At this point, I’m not sure the word "testing" is relevant anymore.
+Observability is bigger than its counterpart, testability. Testability enables rigorous lab testing, whereas observability enables widespread field testing. At this point, I’m not sure the word "testing" is relevant any more.
 
 Testable software allows you to assert the health of the "happy paths" in your code automatically—and occasionally the "unhappy paths." You would typically make these automated assertions whenever the team changes the software. It’s a contract between the team that owns the software and its users:
 
@@ -154,4 +151,4 @@ Observable software allows you to assert the health of your business transaction
 
 > "I promise that you will have a service, and you can rely on me. If I make a change, I promise that your service will get better, and I will know if it doesn’t."
 
-Although it is fair to say that testable software does, at times, bring software engineers closer to their customers, observable software is, I’d argue, the ultimate "shift right" nudge. With observable software, software engineers are not solely working in a lab anymore; they get a glimpse of the field—the real world. And they are taking the entire organization on the journey with them.
+Although it is fair to say that testable software does, at times, bring software engineers closer to their customers, observable software is, I’d argue, the ultimate "shift right" nudge. With observable software, software engineers are not solely working in a lab any more; they get a glimpse of the field—the real world. And they are taking the entire organization on the journey with them.

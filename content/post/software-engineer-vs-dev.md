@@ -1,5 +1,5 @@
 +++
-title =  "Why I call myself a software enginner (and not a dev)"
+title =  "Why I call myself a software engineer (and not a dev)"
 tags = ["software", "engineering", "sociotechnical", "promises", "topologies"]
 date = "2020-07-11"
 +++
@@ -20,11 +20,11 @@ But then the [profile description](https://github.com/Apostolos-Daniel) continue
 
 It struck me that this description really doesn't paint the real picture of what a software engineer does in 2020. I'd probably argue that it never really paid any justice to the role of a software engineer to focus on the programming aspect of the role.
 
-I don't code primarily in C# - well, not anymore.
+I don't code primarily in C# - well, not any more.
 
 I am not a 'programming' enthusiast.
 
-I am not that passionate about basketball anymore - although I have been my whole life.
+I am not that passionate about basketball any more - although I have been my whole life.
 
 I am a software engineer though.
 
@@ -43,7 +43,7 @@ I don't know what I'm going to update that profile to - or that even need to. Bu
 
 I'd say, as a software engineer (or architect if you prefer a fancier term), you can decide to reject the proposal to write code to solve a problem. Because you are engineering the solution to a sociotechnical problem. That may or may not include coding. Or developing.
 
-As for the 'basketball' part: I'd argue that just being a '10x' dev or a programmer will severely limit you when it comes to engineering a complex system. Your personality needs to be more rounded. You need to have passions, interests - you need to be curious. Ok, 'basketball' here is not a great example. But it demostrates that you are not 'just a dev'.
+As for the 'basketball' part: I'd argue that just being a '10x' dev or a programmer will severely limit you when it comes to engineering a complex system. Your personality needs to be more rounded. You need to have passions, interests - you need to be curious. Ok, 'basketball' here is not a great example. But it demonstrates that you are not 'just a dev'.
 
 ### A few references that have influenced my thinking lately
 

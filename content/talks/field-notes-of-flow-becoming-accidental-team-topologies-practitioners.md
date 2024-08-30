@@ -5,7 +5,7 @@ conferenceUrl = "https://www.fastflowconf.com/"
 conferenceDate = "May 2023"
 type = "talk"
 date = "2023-05-25"
-tags = ["presentation", "conference", "fastflow", "teamtopologies"]
+tags = ["presentation", "conference", "fast-flow", "team-topologies"]
 +++
 
 I talked about our field notes of flow with Andy Norton at [Fast Flow conf](https://www.fastflowconf.com/).

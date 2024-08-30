@@ -1,6 +1,6 @@
 +++
 title =  "A love letter to dora"
-conference = "DORA Communitty Discussions"
+conference = "DORA Community Discussions"
 conferenceUrl = "https://groups.google.com/g/dora-community"
 conferenceDate = "Feb 9th 2023"
 type = "talk"
