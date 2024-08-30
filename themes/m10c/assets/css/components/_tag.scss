@@ -1,26 +1,69 @@
 .tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem; /* Space between tags */
-  margin-top: 1rem; /* Space above the tags */
+  gap: 0.5rem;
+  /* Space between tags */
+  margin-top: 1rem;
+  /* Space above the tags */
 }
 
 .tag {
   display: inline-block;
-  background-color: $lightest-color; /* Box background color */
-  color: $dark-color; /* Text color */
+  background-color: $lightest-color;
+  /* Box background color */
+  color: $dark-color;
+  /* Text color */
   font-size: 0.85rem;
-  padding: 0.1rem 0.3rem; /* Adjust padding for better spacing */
-  margin: 0.2rem; /* Space between the boxes */
-  border-radius: 0; /* No rounded corners */
-  text-decoration: none; /* No underline */
+  padding: 0.1rem 0.3rem;
+  /* Adjust padding for better spacing */
+  margin: 0.2rem;
+  /* Space between the boxes */
+  border-radius: 0;
+  /* No rounded corners */
+  text-decoration: none;
+  /* No underline */
   transition: background-color 0.3s ease, color 0.3s ease;
-  
+
   body.dark-mode & {
     background-color: $primary-color;
 
     &:hover {
       color: $secondary-color;
+    }
+  }
+}
+
+.tag-footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px $lightest-color;
+  background-color: $light-color;
+  
+  body.dark-mode & {
+    color: $light-color;
+    background-color: $dark-color;
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+
+  .footer-link {
+    color: $dark-color;
+    text-decoration: underline;
+
+    &:hover {
+      color: $secondary-color;
+    }
+
+    body.dark-mode & {
+      color: $light-color;
+      background-color: $dark-color;
+
+      &:hover {
+        color: $secondary-color;
+      }
     }
   }
 }

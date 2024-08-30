@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<nav class="breadcrumb">
+    <a href="/">Home</a> / 
+    <a href="/post/">Blog</a> / 
+    <span>{{ .Title }}</span>
+  </nav>
+  
+  <h1>Posts tagged as "{{ .Title }}"</h1>
+
+  <ul class="posts-list">
+    {{ range .Data.Pages }}
+      {{ if or (eq .Section "blog") (eq .Type "post") }}
+        <li class="posts-list-item">
+          <a class="posts-list-item-title" href="{{ .Permalink }}">{{ .Title }}</a>
+          <span class="posts-list-item-description">
+            {{ .ReadingTime }} min read - {{ .Date.Format "Jan 2, 2006" }}
+          </span>
+        </li>
+      {{ end }}
+    {{ else }}
+      <p>No blog posts found for this tag.</p>
+    {{ end }}
+  </ul>
+  <footer class="tag-footer">
+    <a href="/post/" class="footer-link">← Back to Blog</a>
+  </footer>
+  
+{{ end }}

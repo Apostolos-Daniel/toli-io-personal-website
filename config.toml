@@ -91,3 +91,6 @@ weight = 25000
 name = "bio"
 url = "/bio/"
 weight = 25000
+
+[taxonomies]
+  tag = "tags"
