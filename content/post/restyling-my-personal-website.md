@@ -58,7 +58,8 @@ I made a few changes that contributed to this result but - from memory - these a
 6. **I changed the layout of the blog posts**: I think it's easier to read now. I've increased the width of the text and I've added a bit of padding to the sides. I think it looks way nicer.
 7. **I made my website accessible by default**: it really is not that hard to make a website accessible. There's tooling out there - chrome extensions (I used [Site Improve Accessibility Checker](https://www.siteimprove.com/)) and Pa11y to get some results via a CLI. I may be missing some bits but now I have a feedback loop to make it better.
 8. **I added a hamburger menu**: I only did this for readability on mobile. I think it looks nice and it's easy to use.
-9. **I shift left on formatting and spelling my content**: I introduced tooling like [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) for formatting markdown files - the files that I use to write my blog posts. I also introduced [cspell](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) to check my spelling.
+9. **I shifted left on formatting and spelling my content**: I introduced tooling like [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) for formatting markdown files - the files that I use to write my blog posts. I also introduced [cspell](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) to check my spelling.
+10. **I focused on the homepage**: a homepage is the first page people typically see. I wanted to make sure that it was easy to navigate and that it was clear what I do. I'm still working on this but it's a start!
 
 ## What's next
 
