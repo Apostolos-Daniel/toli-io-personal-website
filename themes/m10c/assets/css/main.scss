@@ -20,3 +20,4 @@ $secondary-color: {{ .Site.Params.style.secondaryColor | default "#5a9bd5" }};  
 @import 'components/avatar';
 @import 'components/image';
 @import 'components/code';
+@import 'components/home';

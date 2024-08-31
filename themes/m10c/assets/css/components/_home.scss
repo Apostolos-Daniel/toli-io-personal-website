@@ -1,0 +1,219 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: top;
+    height: 100vh;
+    padding: 2rem;
+    text-align: left;
+    background-color: $light-color; /* Light mode background */
+    color: $dark-color; /* Light mode text color */
+  
+    /* Dark mode */
+    body.dark-mode & {
+      background-color: $dark-color; /* Dark mode background */
+      color: $light-color; /* Dark mode text color */
+    }
+  }
+  
+  /* Large Heading */
+  .home-container h2 {
+    font-size: 4rem; /* Very large heading */
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: $primary-color; /* Light mode heading color */
+  
+    /* Dark mode */
+    body.dark-mode & {
+      color: $lightest-color; /* Dark mode heading color */
+    }
+  }
+  
+  /* Subheadings and other text */
+  .home-container h3 {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    color: $dark-color; /* Light mode subheading color */
+  
+    /* Dark mode */
+    body.dark-mode & {
+      color: $light-color; /* Dark mode subheading color */
+    }
+  }
+  
+  .home-container p {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    color: $dark-color; /* Light mode paragraph color */
+  
+    /* Dark mode */
+    body.dark-mode & {
+      color: $light-color; /* Dark mode paragraph color */
+    }
+  }
+  
+  /* Lists */
+  .home-container ul,
+  .home-container ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem 0;
+  
+    /* Dark mode */
+    body.dark-mode & {
+      color: $light-color; /* Dark mode list color */
+    }
+  }
+  
+  .home-container li {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+  
+    /* Dark mode */
+    body.dark-mode & {
+      color: $light-color; /* Dark mode list item color */
+    }
+  }
+  
+  /* Links */
+  .home-container a {
+    color: $primary-color; /* Light mode link color */
+    font-weight: 500;
+    text-decoration: underline;
+  
+    &:hover {
+      color: $secondary-color; /* Light mode hover color */
+    }
+  
+    /* Dark mode */
+    body.dark-mode & {
+      color: $lightest-color; /* Dark mode link color */
+  
+      &:hover {
+        color: lighten($secondary-color, 10%); /* Dark mode hover color */
+      }
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .home-container h2 {
+      font-size: 2.5rem; /* Scale down the large heading */
+    }
+  
+    .home-container h3 {
+      font-size: 1.5rem;
+    }
+  
+    .home-container li,
+    .home-container a {
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* Hamburger Menu Styling */
+.menu-icon {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+.menu-icon span {
+  display: block;
+  width: 40px;
+  height: 4px;
+  margin: 6px 0;
+  background-color: $dark-color; /* Use the dark color for visibility */
+  transition: all 0.3s ease;
+  border-radius: 2px;
+}
+
+.menu-icon:hover span {
+  background-color: $secondary-color; /* Change color on hover */
+}
+
+/* Menu Styling */
+.nav-menu {
+  display: none; /* Hidden by default */
+  position: absolute;
+  top: 60px; /* Below the header */
+  left: 1rem;
+  background-color: $light-color;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+  z-index: 999; /* Ensure it's above other content */
+}
+
+.nav-menu.show {
+  display: block; /* Display when the 'show' class is added */
+}
+
+.nav-menu a {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: $dark-color;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+
+  &:hover {
+    color: $secondary-color;
+    text-decoration: underline;
+  }
+}
+
+/* Dark Mode for the Hamburger Menu */
+body.dark-mode .menu-icon span {
+  background-color: $lightest-color;
+}
+
+body.dark-mode .nav-menu {
+  background-color: $dark-color;
+}
+
+body.dark-mode .nav-menu a {
+  color: $light-color;
+
+  &:hover {
+    color: lighten($primary-color, 10%);
+  }
+}
+
+/* Dark Mode Toggle Button Styling */
+#theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: $primary-color;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+  &:hover {
+    color: $secondary-color;
+  }
+
+  body.dark-mode & {
+    color: $lightest-color;
+
+    &:hover {
+      color: lighten($secondary-color, 10%);
+    }
+  }
+}
+
+/* Ensure the button fits well with the rest of the header */
+.header-right {
+  position: relative;
+  display: flex;
+  align-items: center;
+}

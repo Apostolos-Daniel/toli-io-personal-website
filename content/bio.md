@@ -9,7 +9,7 @@ I grew up in Greece, I have lived the majority of my adult life in the UK and I 
 
 Ever since 2011, I've been on an exciting journey as a Software Engineer, diving into different software paradigms, stacks, and industries. My true passion lies in discovering what contemporary, effective engineering practices look like—and more importantly, in empowering teams and organizations to thrive together.
 
-I currently work as a Principal Engineer at [Flipdish](www.flipdish.com), an Irish company creating easy-to-use tech solutions for independent restaurants. Before this, I spent 3.5 incredible years at [cinch](cinch.co.uk), where I took on various roles, culminating in Head of Engineering Practice. Ι started out my career at IFS, a global enterprise software company, where I worked for 7 years on the IFS Schedule Optimisation systems.
+I currently work as a Principal Engineer at [Flipdish](www.flipdish.com), an Irish company creating easy-to-use tech solutions for independent restaurants. Before this, I spent 3.5 incredible years at [cinch](cinch.co.uk), where I took on various roles, culminating in Head of Engineering Practice. Ι started out my career at [IFS](https://www.ifs.com/solutions/capabilities/workforce-scheduling-and-planning), a global enterprise software company, where I worked for 7 years on the algorithms of their Scheduling Optimisation Engine.
 
 ## 🗺️ I like to learn & sharing
 
@@ -19,7 +19,7 @@ In the past, I co-hosted the [Behind The Buzzword](https://www.meetup.com/en-AU/
 
 ## 🎓 My Academic Journey
 
-Ever since I was a kid, I've been fascinated by mathematics. I pursued Maths by studying Pure Mathematics and Mathematical Physics at the University of Patras in Greece. Later, I moved to the UK for even more Maths, via an MSc in Mathematical Sciences at Durham University in the UK. Those years were full of incredible learning and exploration in the world of mathematics.
+Ever since I was a kid, I've been fascinated by mathematics. I pursued Maths by studying Pure Mathematics and Mathematical Physics at the University of Patras in Greece. Later, I moved to the UK for even more Maths, via an MSc in Mathematical Sciences at Durham University in the UK. I look back at those years with nostalgia, as they were full of immense learning and exploration in the world of mathematics.
 
 ## 🏀 My Love for Basketball
 

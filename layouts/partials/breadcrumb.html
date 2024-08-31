@@ -1,3 +1,4 @@
+{{ if not .IsHome }}
 <span>
     <a href="/">Home</a>
     {{ range (split .RelPermalink "/") }}
@@ -6,3 +7,4 @@
         {{ end }}
     {{ end }}
 </span>
+{{ end }}

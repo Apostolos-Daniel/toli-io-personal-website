@@ -1,32 +1,40 @@
-{{ define "main" }}
-{{ partial "breadcrumb.html" . }}
-<article class="post">
-  <header class="post-header">
+<!doctype html>
+<html lang="en">
+<head>
+  <title>{{ .Site.Title }}</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Include the main stylesheet -->
+  {{ $mainStyle := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "css/main.scss" . | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $mainStyle.Permalink }}" />
+</head>
+<body>
+  <header class="home-header">
+    <div class="menu-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+
+    <div class="app-header-right">
+      <button id="theme-toggle" aria-label="Dark Mode" title="Dark Mode">🌙</button>
+      {{ partial "dark-mode-toggle.html" . }}
+    </div>
   </header>
-  <div class="post-content">
-    {{ .Content }}
-  </div>
-</article>
-
-<article>
-  <h1>✍️ Recent Blog Posts</h1>
-  <ul class="posts-list">
-    <!-- Filter pages to only include posts with the "post" content type -->
-    {{ range first 5 (where .Site.RegularPages "Type" "post") }} <!-- Adjust the number to display only a few posts -->
-      <li class="posts-list-item">
-        <a class="posts-list-item-title" href="{{ .Permalink }}">{{ .Title }}</a>
-        <span class="posts-list-item-description">
-          {{ partial "icon.html" (dict "ctx" $ "name" "clock") }} {{ .ReadingTime }} min read -
-          {{ .PublishDate.Format "Jan 2, 2006" }}
-        </span>
-      </li>
+  
+  <nav class="nav-menu">
+    {{ range .Site.Menus.main.ByWeight }}
+    <a href="{{ .URL }}">{{ .Name }}</a>
     {{ end }}
-  </ul>
-
-  <!-- Nudge to view all blog posts -->
-  <div class="view-all-posts-nudge ">
-    <a href="/post/">View All Blog Posts ⏭️</a>
-  </div>
-</article>
-
-{{ end }}
+  </nav>
+  <main class="home-container">
+    <h2>{{ .Site.Title }}</h2>
+    {{ .Content }}
+  </main>
+  
+  <!-- Include the menu script -->
+  {{ partial "menu-script.html" . }}
+</body>
+</html>
