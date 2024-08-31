@@ -61,9 +61,13 @@ I made a few changes that contributed to this result but - from memory - these a
 9. **I shifted left on formatting and spelling my content**: I introduced tooling like [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) for formatting markdown files - the files that I use to write my blog posts. I also introduced [cspell](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) to check my spelling.
 10. **I focused on the homepage**: a homepage is the first page people typically see. I wanted to make sure that it was easy to navigate and that it was clear what I do. I'm still working on this but it's a start!
 
+| ![New website homepage light](homepage-light.png) | ![New website homepage dark](homepage-dark.png) |
+|:-----------------------------:|:-----------------------------:|
+| *Home page (light mode)*     | *Home page (dark mode)*    |
+
 ## What's next
 
-I'm not sure! I've reached out to a Designer at work to give me advice at this point. Because although ChatGPT has been useful, this is the point where a human with *loads* of experience can help me make the website even better.
+I'm not sure! I've reached out to an amazing designer at work (hey Ryan 👋) to give me advice at this point. Because although ChatGPT has been useful, this is the point where a human with *loads* of experience can help me make the website even better.
 
 I'm also considering moving the website to Cloudflare Pages. I'm currently hosting it on Amplify but I think I'd like to try something new. Plus, I got frustrated when I was trying to deploy my changes and Amplify would not deploy the latest changes due to a mismatch between the versions of Hugo used (on my laptop vs on their server). Cloudflare is an emerging tech platform that I want to learn more about so Cloudflare Pages make sense to me. I got it deployed in seconds to [Cloudflare](https://toli-io-personal-website.pages.dev/).
 
