@@ -13,7 +13,7 @@ hrefTargetBlank = true
 
 [params]
 author = "Apostolis D. Apostolidis"
-description = "Principal Engineer at Flipdish | serverless, DevOps & o11y | 1/2 🇬🇷, 1/2 🇬🇧 | Citizen of Nowhere"
+description = "Principal Engineer at Flipdish | Datadog Ambassador, Team Topologies Advocate | serverless, DevOps & o11y | 🇬🇷🇬🇧"
 homeTitle = "Welcome"
 
 # Social links
@@ -77,14 +77,14 @@ name = "podcasts"
 url = "/podcasts/"
 weight = 20000
 
-# [[menu.main]]
-# name = "books"
-# url = "/books/"
-# weight = 20000
-
 [[menu.main]]
 name = "contact"
 url = "/contact/"
+weight = 25000
+
+[[menu.main]]
+name = "community"
+url = "/community/"
 weight = 25000
 
 [[menu.main]]

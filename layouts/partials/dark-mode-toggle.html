@@ -8,26 +8,26 @@
 
     if (savedTheme) {
       body.classList.add(savedTheme);
-      themeToggle.textContent = savedTheme === 'dark-mode' ? '☀️ Light Mode' : '🌙 Dark Mode';
-      themeToggle.setAttribute('aria-label', savedTheme === 'dark-mode' ? '☀️ Light Mode' : '🌙 Dark Mode');
+      themeToggle.textContent = savedTheme === 'dark-mode' ? '☀️ Light' : '🌙 Dark';
+      themeToggle.setAttribute('aria-label', savedTheme === 'dark-mode' ? '☀️ Light' : '🌙 Dark');
     } else {
-      themeToggle.textContent = '🌙 Dark Mode';
-      themeToggle.setAttribute('aria-label', '🌙 Dark Mode');
+      themeToggle.textContent = '🌙 Dark';
+      themeToggle.setAttribute('aria-label', '🌙 Dark');
     }
 
     // Toggle theme on button click
     themeToggle.addEventListener('click', function () {
       if (body.classList.contains('dark-mode')) {
         body.classList.remove('dark-mode');
-        themeToggle.textContent = '🌙 Dark Mode';
-        themeToggle.setAttribute('aria-label', '🌙 Dark Mode');
-        themeToggle.setAttribute('title', '🌙 Dark Mode');
+        themeToggle.textContent = '🌙 Dark';
+        themeToggle.setAttribute('aria-label', '🌙 Dark');
+        themeToggle.setAttribute('title', '🌙 Dark');
         localStorage.setItem('theme', '');
       } else {
         body.classList.add('dark-mode');
-        themeToggle.textContent = '☀️ Light Mode';
-        themeToggle.setAttribute('aria-label', '☀️ Light Mode');
-        themeToggle.setAttribute('title', '☀️ Light Mode');
+        themeToggle.textContent = '☀️ Light';
+        themeToggle.setAttribute('aria-label', '☀️ Light');
+        themeToggle.setAttribute('title', '☀️ Light');
 
         localStorage.setItem('theme', 'dark-mode');
       }
