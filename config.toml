@@ -1,4 +1,4 @@
-baseURL = "https://www.toli.io"
+baseURL = "https://toli.io"
 title = "👋 Hi, I'm Toli."
 #themesDir = "../.."
 theme = "m10c"
