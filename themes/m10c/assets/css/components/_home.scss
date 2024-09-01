@@ -116,7 +116,7 @@
     }
   }
   
-  /* Hamburger Menu Styling */
+  /* Menu Icon Styling */
 .menu-icon {
   position: absolute;
   top: 1rem;
@@ -124,20 +124,21 @@
   display: inline-block;
   cursor: pointer;
   z-index: 1000; /* Ensure it's above other elements */
+  background-color: $primary-color;
+  color: $lightest-color;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  width: auto; /* Ensure the background color covers the entire button */
+  height: auto; /* Ensure the background color covers the entire button */
 }
 
-.menu-icon span {
-  display: block;
-  width: 40px;
-  height: 4px;
-  margin: 6px 0;
-  background-color: $dark-color; /* Use the dark color for visibility */
-  transition: all 0.3s ease;
-  border-radius: 2px;
-}
-
-.menu-icon:hover span {
-  background-color: $secondary-color; /* Change color on hover */
+.menu-icon:hover {
+  background-color: $secondary-color;
+  color: $light-color;
 }
 
 /* Menu Styling */
@@ -170,9 +171,15 @@
   }
 }
 
-/* Dark Mode for the Hamburger Menu */
-body.dark-mode .menu-icon span {
+/* Dark Mode for the Menu Icon */
+body.dark-mode .menu-icon {
   background-color: $lightest-color;
+  color: $dark-color;
+
+  &:hover {
+    background-color: lighten($secondary-color, 10%);
+    color: $dark-color;
+  }
 }
 
 body.dark-mode .nav-menu {
