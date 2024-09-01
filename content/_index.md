@@ -4,7 +4,7 @@ title = "Introduction"
 
 ### ✍️ I [write](./post/) blog posts
 
-### 🗣️ I [speak](./talks/) at conferences or [podcasts](./podcasts/)
+### 🗣️ I [speak](./talks/) at conferences or on [podcasts](./podcasts/)
 
 ### 🎙️ I [advocate](./community/) in the community
 
