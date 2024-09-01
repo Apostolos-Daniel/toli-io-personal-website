@@ -1,120 +1,121 @@
+/* Home Container Styling */
 .home-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: top;
-    align-items: top;
-    height: 100vh;
-    padding: 2rem;
-    text-align: left;
-    background-color: $light-color; /* Light mode background */
-    color: $dark-color; /* Light mode text color */
-  
-    /* Dark mode */
-    body.dark-mode & {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: top;
+  height: 100vh;
+  padding: 2rem;
+  text-align: left;
+  background-color: $light-color; /* Light mode background */
+  color: $dark-color; /* Light mode text color */
+
+  /* Dark mode */
+  body.dark-mode & {
       background-color: $dark-color; /* Dark mode background */
       color: $light-color; /* Dark mode text color */
-    }
   }
-  
-  /* Large Heading */
-  .home-container h2 {
-    font-size: 4rem; /* Very large heading */
-    font-family: 'Merriweather', serif;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    color: $primary-color; /* Light mode heading color */
-  
-    /* Dark mode */
-    body.dark-mode & {
+}
+
+/* Large Heading */
+.home-container h2 {
+  font-size: 4rem; /* Very large heading */
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: $primary-color; /* Light mode heading color */
+
+  /* Dark mode */
+  body.dark-mode & {
       color: $lightest-color; /* Dark mode heading color */
-    }
   }
-  
-  /* Subheadings and other text */
-  .home-container h3 {
-    font-size: 3rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    margin-bottom: 1.5rem;
-    text-align: left;
-    color: $dark-color; /* Light mode subheading color */
-  
-    /* Dark mode */
-    body.dark-mode & {
+}
+
+/* Subheadings and other text */
+.home-container h3 {
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  color: $dark-color; /* Light mode subheading color */
+
+  /* Dark mode */
+  body.dark-mode & {
       color: $light-color; /* Dark mode subheading color */
-    }
   }
-  
-  .home-container p {
-    font-size: 1.5rem;
-    line-height: 1.7;
-    margin-bottom: 2rem;
-    color: $dark-color; /* Light mode paragraph color */
-  
-    /* Dark mode */
-    body.dark-mode & {
+}
+
+.home-container p {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  color: $dark-color; /* Light mode paragraph color */
+
+  /* Dark mode */
+  body.dark-mode & {
       color: $light-color; /* Dark mode paragraph color */
-    }
   }
-  
-  /* Lists */
-  .home-container ul,
-  .home-container ol {
-    list-style-type: none;
-    padding: 0;
-    margin: 2rem 0;
-  
-    /* Dark mode */
-    body.dark-mode & {
+}
+
+/* Lists */
+.home-container ul,
+.home-container ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 2rem 0;
+
+  /* Dark mode */
+  body.dark-mode & {
       color: $light-color; /* Dark mode list color */
-    }
   }
-  
-  .home-container li {
-    font-size: 2rem;
-    margin: 0.5rem 0;
-  
-    /* Dark mode */
-    body.dark-mode & {
+}
+
+.home-container li {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+
+  /* Dark mode */
+  body.dark-mode & {
       color: $light-color; /* Dark mode list item color */
-    }
   }
-  
-  /* Links */
-  .home-container a {
-    color: $primary-color; /* Light mode link color */
-    font-weight: 500;
-    text-decoration: underline;
-  
-    &:hover {
+}
+
+/* Links */
+.home-container a {
+  color: $primary-color; /* Light mode link color */
+  font-weight: 500;
+  text-decoration: underline;
+
+  &:hover {
       color: $secondary-color; /* Light mode hover color */
-    }
-  
-    /* Dark mode */
-    body.dark-mode & {
+  }
+
+  /* Dark mode */
+  body.dark-mode & {
       color: $lightest-color; /* Dark mode link color */
-  
+
       &:hover {
-        color: lighten($secondary-color, 10%); /* Dark mode hover color */
+          color: lighten($secondary-color, 10%); /* Dark mode hover color */
       }
-    }
   }
-  
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .home-container h2 {
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .home-container h2 {
       font-size: 2.5rem; /* Scale down the large heading */
-    }
-  
-    .home-container h3 {
-      font-size: 1.5rem;
-    }
-  
-    .home-container li,
-    .home-container a {
-      font-size: 1.5rem;
-    }
   }
+
+  .home-container h3 {
+      font-size: 1.5rem;
+  }
+
+  .home-container li,
+  .home-container a {
+      font-size: 1.5rem;
+  }
+}
 
 /* Menu Styling */
 .nav-menu {
@@ -139,11 +140,11 @@
   text-decoration: none;
   font-weight: 500;
   font-size: 1.2rem;
-  text-align:center;
+  text-align: center;
 
   &:hover {
-    color: $secondary-color;
-    text-decoration: underline;
+      color: $secondary-color;
+      text-decoration: underline;
   }
 }
 
@@ -153,8 +154,8 @@ body.dark-mode .menu-icon {
   color: $dark-color;
 
   &:hover {
-    background-color: lighten($secondary-color, 10%);
-    color: $dark-color;
+      background-color: lighten($secondary-color, 10%);
+      color: $dark-color;
   }
 }
 
@@ -166,33 +167,232 @@ body.dark-mode .nav-menu a {
   color: $light-color;
 
   &:hover {
-    color: lighten($primary-color, 10%);
+      color: lighten($primary-color, 10%);
   }
 }
-  
+
 /* Menu Icon Styling */
 .menu-icon {
-position: absolute;
-top: 1rem;
-right: 1rem; /* Move the menu button to the far right */
-display: inline-block;
-cursor: pointer;
-z-index: 1000; /* Ensure it's above other elements */
-background-color: $primary-color;
-color: $lightest-color;
-padding: 0.5rem 1rem;
-border: none;
-border-radius: 4px;
-font-size: 1.2rem;
-font-weight: 500;
-transition: background-color 0.3s ease, color 0.3s ease;
-width: auto; /* Ensure the background color covers the entire button */
-height: auto; /* Ensure the background color covers the entire button */
+  position: absolute;
+  top: 1rem;
+  right: 1rem; /* Move the menu button to the far right */
+  display: inline-block;
+  cursor: pointer;
+  z-index: 1000; /* Ensure it's above other elements */
+  background-color: $primary-color;
+  color: $lightest-color;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  width: auto; /* Ensure the background color covers the entire button */
+  height: auto; /* Ensure the background color covers the entire button */
 }
 
 .menu-icon:hover {
-background-color: $secondary-color;
-color: $light-color;
+  background-color: $secondary-color;
+  color: $light-color;
+}
+
+/* Dark Mode Toggle Button Styling */
+/* Home Container Styling */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: top;
+  height: 100vh;
+  padding: 2rem;
+  text-align: left;
+  background-color: $light-color; /* Light mode background */
+  color: $dark-color; /* Light mode text color */
+
+  /* Dark mode */
+  body.dark-mode & {
+      background-color: $dark-color; /* Dark mode background */
+      color: $light-color; /* Dark mode text color */
+  }
+}
+
+/* Large Heading */
+.home-container h2 {
+  font-size: 4rem; /* Very large heading */
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: $primary-color; /* Light mode heading color */
+
+  /* Dark mode */
+  body.dark-mode & {
+      color: $lightest-color; /* Dark mode heading color */
+  }
+}
+
+/* Subheadings and other text */
+.home-container h3 {
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  color: $dark-color; /* Light mode subheading color */
+
+  /* Dark mode */
+  body.dark-mode & {
+      color: $light-color; /* Dark mode subheading color */
+  }
+}
+
+.home-container p {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  color: $dark-color; /* Light mode paragraph color */
+
+  /* Dark mode */
+  body.dark-mode & {
+      color: $light-color; /* Dark mode paragraph color */
+  }
+}
+
+/* Lists */
+.home-container ul,
+.home-container ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 2rem 0;
+
+  /* Dark mode */
+  body.dark-mode & {
+      color: $light-color; /* Dark mode list color */
+  }
+}
+
+.home-container li {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+
+  /* Dark mode */
+  body.dark-mode & {
+      color: $light-color; /* Dark mode list item color */
+  }
+}
+
+/* Links */
+.home-container a {
+  color: $primary-color; /* Light mode link color */
+  font-weight: 500;
+  text-decoration: underline;
+
+  &:hover {
+      color: $secondary-color; /* Light mode hover color */
+  }
+
+  /* Dark mode */
+  body.dark-mode & {
+      color: $lightest-color; /* Dark mode link color */
+
+      &:hover {
+          color: lighten($secondary-color, 10%); /* Dark mode hover color */
+      }
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .home-container h2 {
+      font-size: 2.5rem; /* Scale down the large heading */
+  }
+
+  .home-container h3 {
+      font-size: 1.5rem;
+  }
+
+  .home-container li,
+  .home-container a {
+      font-size: 1.5rem;
+  }
+}
+
+/* Menu Styling */
+.nav-menu {
+  display: none; /* Hidden by default */
+  position: absolute;
+  top: 60px; /* Below the header */
+  right: 1rem; /* Display the nav menu on the right */
+  background-color: $light-color;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+  z-index: 999; /* Ensure it's above other content */
+}
+
+.nav-menu.show {
+  display: block; /* Display when the 'show' class is added */
+}
+
+.nav-menu a {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: $dark-color;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+
+  &:hover {
+      color: $secondary-color;
+      text-decoration: underline;
+  }
+}
+
+/* Dark Mode for the Menu Icon */
+body.dark-mode .menu-icon {
+  background-color: $lightest-color;
+  color: $dark-color;
+
+  &:hover {
+      background-color: lighten($secondary-color, 10%);
+      color: $dark-color;
+  }
+}
+
+body.dark-mode .nav-menu {
+  background-color: $dark-color;
+}
+
+body.dark-mode .nav-menu a {
+  color: $light-color;
+
+  &:hover {
+      color: lighten($primary-color, 10%);
+  }
+}
+
+/* Menu Icon Styling */
+.menu-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem; /* Move the menu button to the far right */
+  display: inline-block;
+  cursor: pointer;
+  z-index: 1000; /* Ensure it's above other elements */
+  background-color: $primary-color;
+  color: $lightest-color;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  width: auto; /* Ensure the background color covers the entire button */
+  height: auto; /* Ensure the background color covers the entire button */
+}
+
+.menu-icon:hover {
+  background-color: $secondary-color;
+  color: $light-color;
 }
 
 /* Dark Mode Toggle Button Styling */
@@ -212,8 +412,18 @@ color: $light-color;
 
 #theme-toggle:hover {
   background-color: $secondary-color;
-  color: $light-color;
+  color: $dark-color; /* Ensures the text is dark when hovering over the button */
 }
+
+body.dark-mode #theme-toggle {
+  color: $lightest-color; /* Default color in dark mode */
+}
+
+body.dark-mode #theme-toggle:hover {
+  background-color: $secondary-color;
+  color: $darkest-color; /* Ensures high contrast in dark mode when hovering */
+}
+
 
 /* Ensure the button fits well with the rest of the header */
 .header-right {
