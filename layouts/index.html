@@ -31,6 +31,8 @@
   </nav>
   <main class="home-container">
     <h2>{{ .Site.Title }}</h2>
+
+    {{ partial "subscribe.html" . }}
     {{ .Content }}
   </main>
   

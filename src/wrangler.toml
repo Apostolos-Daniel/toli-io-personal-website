@@ -1,17 +1,20 @@
 name = "newsletter-worker"
-type = "javascript"
+
+main = "backend/index.js"
 
 # Define the Durable Object binding
-[[durable_objects]]
-name = "SUBSCRIBER_STORE"
-class_name = "SubscriberStore"
-
-[[bindings]]
-type = "durable_object_namespace"
-name = "SUBSCRIBER_STORE"
-class_name = "SubscriberStore"
+[durable_objects]
+bindings = [
+  { name = "SUBSCRIBER_STORE", class_name = "SubscriberStore" }
+]
 
 # Your Cloudflare account ID
-account_id = "your_account_id"
+account_id = "c1cf200f13bd434bc771059a39ec092c"
 workers_dev = true
-compatibility_date = "2024-01-01"
+compatibility_date = "2024-09-01"
+
+
+# Add migrations to handle Durable Object classes
+[[migrations]]
+tag = "v1" # Ensure this tag is unique; update it with every schema change
+new_classes = ["SubscriberStore"]

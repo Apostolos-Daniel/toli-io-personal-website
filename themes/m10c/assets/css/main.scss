@@ -22,3 +22,4 @@ $secondary-color: {{ .Site.Params.style.secondaryColor | default "#5a9bd5" }};  
 @import 'components/code';
 @import 'components/home';
 @import 'components/community';
+@import 'components/subscribe'
