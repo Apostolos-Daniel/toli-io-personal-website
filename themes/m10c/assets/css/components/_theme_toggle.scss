@@ -1,26 +1,30 @@
 
+/* Dark Mode Toggle Button Styling */
 #theme-toggle {
-    color: $primary-color;
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 1.2rem; /* Adjust this value */
-    padding: 0.5rem 1rem; /* Adjust padding as needed */
-    position: absolute; /* Fix the button to the screen */
-    top: 10px; /* Distance from the top */
-    right: 2px; /* Distance from the right */
-    border-radius: 5px; /* Optional: Add rounded corners */
-  
-    &:hover {
-      color: $secondary-color;
-    }
-  
-    body.dark-mode & {
-      color: $lightest-color;
-  
-      &:hover {
-        color: $secondary-color;
-      }
-    }
-  }
-  
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem; /* Adjusted to match the menu icon */
+  color: $primary-color;
+  position: absolute;
+  top: 1rem;
+  right: 7rem; /* Adjust the position to the left of the menu button */
+  padding: 0.5rem 1rem; /* Added padding to match the menu icon */
+  border-radius: 4px; /* Added border-radius to match the menu icon */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#theme-toggle:hover {
+  background-color: $secondary-color;
+  color: $dark-color;
+}
+
+/* Dark Mode Toggle Styling for Dark Mode */
+body.dark-mode #theme-toggle {
+  color: $lightest-color;
+}
+
+body.dark-mode #theme-toggle:hover {
+  background-color: $secondary-color;
+  color: $darkest-color;
+}

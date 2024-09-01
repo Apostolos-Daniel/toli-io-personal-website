@@ -25,8 +25,9 @@
 
 <body>
   <header class="app-header">
-    <a href="/" aria-label="Go to homepage"><img class="app-header-avatar" src="./avatar.jpg"
-        aria-label="Profile picture" alt="Profile picture" /></a>
+    <a href="/" aria-label="Go to homepage">
+      <img class="app-header-avatar" src="./avatar.jpg" aria-label="Profile picture" alt="Profile picture" />
+    </a>
     <h1>{{ .Site.Title }}</h1>
     <p>{{ .Site.Params.description | default "Lorem ipsum dolor sit amet, consectetur adipiscing elit." }}</p>
 
@@ -36,28 +37,19 @@
         .name ) }}</a>
       {{ end }}
     </div>
-
-    <div class="app-header-right">
-      <button id="theme-toggle" aria-label="Dark Mode" title="Dark Mode">🌙</button>
-      {{ partial "dark-mode-toggle.html" . }}
-      <button class="menu-icon" aria-label="Toggle Menu" title="Toggle Menu">Menu</button>
-    </div>
-
-    <!-- Dropdown Menu -->
-    <nav class="nav-menu">
-      {{ range .Site.Menus.main.ByWeight }}
-      <a href="{{ .URL }}">{{ .Name }}</a>
-      {{ end }}
-    </nav>
-    <!-- Desktop Menu (Visible on Desktop only) -->
-    <nav class="desktop-menu">
-      {{ range .Site.Menus.main.ByWeight }}
-      <a href="{{ .URL }}">{{ .Name }}</a>
-      {{ end }}
-    </nav>
-
-
   </header>
+
+    <!-- Buttons moved outside the header for global positioning -->
+    <button class="menu-icon" aria-label="Toggle Menu" title="Toggle Menu">Menu</button>
+    <button id="theme-toggle" aria-label="Dark Mode" title="Dark Mode">🌙 Mode</button>
+    {{ partial "dark-mode-toggle.html" . }}
+
+  <!-- Dropdown Menu -->
+  <nav class="nav-menu">
+    {{ range .Site.Menus.main.ByWeight }}
+    <a href="{{ .URL }}">{{ .Name }}</a>
+    {{ end }}
+  </nav>
 
   <main class="app-container">
     {{ block "main" . }}
