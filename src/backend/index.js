@@ -7,10 +7,10 @@ export default {
       const instanceName = url.pathname.split('/')[1] || "default"; // Extract the first segment or use "default"
       console.log(`Instance name: ${instanceName}`);
       
-      const id = env.SUBSCRIBER_STORE.idFromName(instanceName);
-      console.log(`Durable Object ID: ${id}`);
+      const objectId = env.SUBSCRIBER_STORE.idFromName("subscribe");
+      console.log(`Durable Object ID: ${objectId}`);
       
-      const stub = env.SUBSCRIBER_STORE.get(id);
+      const stub = env.SUBSCRIBER_STORE.get(objectId);
       console.log(`Durable Object stub: ${stub}`);
       
       const response = await stub.fetch(request);
