@@ -25,6 +25,13 @@
 
 <body>
   <header class="app-header">
+    <div class="app-header-left">
+      <div class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
     <a href="/" aria-label="Go to homepage">
       <img class="app-header-avatar" src="./avatar.jpg" aria-label="Profile picture" alt="Profile picture" />
     </a>
@@ -40,7 +47,6 @@
   </header>
 
     <!-- Buttons moved outside the header for global positioning -->
-    <button class="menu-icon" aria-label="Toggle Menu" title="Toggle Menu">Menu</button>
     <button id="theme-toggle" aria-label="Dark Mode" title="Dark Mode">🌙 Mode</button>
     {{ partial "dark-mode-toggle.html" . }}
 
