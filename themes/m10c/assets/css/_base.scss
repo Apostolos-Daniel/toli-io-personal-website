@@ -210,3 +210,18 @@ footer {
     }
   }
 }
+
+/* Menu Icon Styling */
+.menu-icon span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 4px 0;
+  background-color: $dark-color;
+  transition: all 0.3s ease;
+
+  /* Dark mode */
+  body.dark-mode & {
+    background-color: $light-color;
+  }
+}
