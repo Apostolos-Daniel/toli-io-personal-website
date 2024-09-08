@@ -8,10 +8,12 @@
 
   <!-- Include the main stylesheet -->
   {{ $mainStyle := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "css/main.scss" . | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-  <link rel="stylesheet" href="{{ $mainStyle.Permalink }}" />
+  <link rel="stylesheet" href="{{ $mainStyle.Permalink | absURL  }}" />
 </head>
 
 <body>
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
   <header class="home-header">
     <div class="app-header-left">
       <div class="menu-icon">
@@ -34,7 +36,7 @@
   </nav>
 
   <!-- Main Container -->
-  <main class="home-container">
+  <main id="main-content" class="home-container">
     <!-- Left section with image -->
     <div class="home-left">
       <img src="./Toli-upper.jpeg" alt="Profile Picture" class="profile-picture" />
@@ -42,7 +44,7 @@
 
     <!-- Right section with content -->
     <div class="home-right">
-      <h2>👋 Hello, I'm Toli.</h2>
+      <h1>👋 Hello, I'm Toli.</h1>
       <p class="home-description">A software engineer with a math background and passion for basketball. I specialise in
         building resilient, observable systems, favoring serverless and event-driven architectures. I'm experienced in
         DevOps and observability, having worked with teams of all sizes across startups and enterprises.</p>

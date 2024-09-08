@@ -9,6 +9,8 @@
     position: absolute; /* Fix the button to the screen */
     top: 10px; /* Distance from the top */
     right: 2px; /* Distance from the right */
+    min-width: 44px; /* Ensure minimum width */
+    min-height: 44px; /* Ensure minimum height */
     border-radius: 5px; /* Optional: Add rounded corners */
   
     &:hover {
