@@ -3,18 +3,8 @@
     const menuIcon = document.querySelector('.menu-icon');
     const navMenu = document.querySelector('.nav-menu');
 
-    // is navMenu defined?
-    if (navMenu) {
-      console.log('Nav menu found!');  // Add this line to verify the element is selected
-    } else {
-      console.log('Nav menu not found!');  // This will alert you if the nav menu isn't found in the DOM
-    }
-
     if (menuIcon) {
-      console.log('Menu icon found!');  // Add this line to verify the element is selected
-
       menuIcon.addEventListener('click', function () {
-        console.log('Hamburger clicked!');  // Add this line to verify the click event is working
         menuIcon.classList.toggle('active');
         navMenu.classList.toggle('show');
       });
