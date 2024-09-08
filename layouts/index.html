@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <title>{{ .Site.Title }}</title>
   <meta charset="utf-8" />
@@ -9,34 +10,69 @@
   {{ $mainStyle := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "css/main.scss" . | resources.ToCSS | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $mainStyle.Permalink }}" />
 </head>
+
 <body>
   <header class="home-header">
-    <div class="menu-icon">
-      <span></span>
-      <span></span>
-      <span></span>
+    <div class="app-header-left">
+      <div class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
-
 
     <div class="app-header-right">
       <button id="theme-toggle" aria-label="Dark Mode" title="Dark Mode">🌙</button>
       {{ partial "dark-mode-toggle.html" . }}
     </div>
   </header>
-  
+
   <nav class="nav-menu">
     {{ range .Site.Menus.main.ByWeight }}
     <a href="{{ .URL }}">{{ .Name }}</a>
     {{ end }}
   </nav>
-  <main class="home-container">
-    <h2>{{ .Site.Title }}</h2>
 
-    {{ partial "subscribe.html" . }}
-    {{ .Content }}
+  <!-- Main Container -->
+  <main class="home-container">
+    <!-- Left section with image -->
+    <div class="home-left">
+      <img src="./Toli-upper.jpeg" alt="Profile Picture" class="profile-picture" />
+    </div>
+
+    <!-- Right section with content -->
+    <div class="home-right">
+      <h2>👋 Hello, I'm Toli.</h2>
+      <p class="home-description">A software engineer with a math background and passion for basketball. I specialise in
+        building resilient, observable systems, favoring serverless and event-driven architectures. I'm experienced in
+        DevOps and observability, having worked with teams of all sizes across startups and enterprises.</p>
+
+      <div class="action-buttons">
+        <a href="javascript:void(0);" id="writing-btn" class="action-btn"><span>✍️ Writing</span></a>
+        <a href="javascript:void(0);" id="speaking-btn" class="action-btn"><span>🎤 Speaking</span></a>
+        <a href="javascript:void(0);" id="advocating-btn" class="action-btn"><span>📢 Advocating</span></a>
+      </div>
+
+      <!-- Container for blog posts -->
+      <div id="blog-posts-container" class="blog-posts-container">
+        {{ partial "post-list.html" . }}
+      </div>
+
+      <!-- Container for talks -->
+      <div id="talks-container" class="talks-container">
+        {{ partial "talk-list.html" . }}
+      </div>
+
+      <!-- Container for advocating -->
+      <div id="advocating-container" class="advocating-container community-summary-container">
+        {{ partial "community-summary.html" . }}
+      </div>
+    </div>
   </main>
-  
+
   <!-- Include the menu script -->
   {{ partial "menu-script.html" . }}
+  <script src="/js/main.js"></script>
 </body>
+
 </html>

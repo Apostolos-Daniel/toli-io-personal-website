@@ -6,6 +6,7 @@ conferenceDate = "Sept 1st 2022"
 type = "talk"
 date = "2022-09-01"
 tags = ["talk", "serverless", "EDA", "AWS"]
+featured = true
 +++
 
 I spoke at [GOTO; EDA Day 2022](https://gotoldn.com/2022-eda-aws-day/schedule?date=2022-09-01) with [Emily Shea](https://twitter.com/em__shea) about cinch's journey build with event-driven architectures.

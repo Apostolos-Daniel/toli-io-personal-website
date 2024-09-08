@@ -1,5 +1,5 @@
 baseURL = "https://toli.io"
-title = "👋 Hi, I'm Toli."
+title = "👋 Hello, I'm Toli."
 #themesDir = "../.."
 theme = "m10c"
 paginate = 10

@@ -5,6 +5,7 @@ conferenceUrl = "https://www.dashcon.io/"
 conferenceDate = "August 2023"
 tags = ["presentation", "conference", "culture", "observability"]
 date = "2023-08-03"
+featured = true
 +++
 
 I was honoured to be invited back to Datadog's conference - [Dash 2023](https://www.dashcon.io/). This time I talked about "Day 2 Observability: Building Organizational Understanding".

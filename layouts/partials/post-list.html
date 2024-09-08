@@ -1,0 +1,16 @@
+<article>
+    <ul class="posts-list">
+        {{ range .Paginator.Pages }}
+        {{ if and (eq .Type "post") (eq .Params.featured true) }}
+        <li class="posts-list-item">
+            <a class="posts-list-item-title" href="{{ .Permalink }}">{{ .Title }}</a>
+            <span class="posts-list-item-description">
+                {{ partial "icon.html" (dict "ctx" $ "name" "clock") }} {{ .ReadingTime }} min read -
+                {{ .PublishDate.Format "Jan 2, 2006" }}
+            </span>
+        </li>
+        {{ end }}
+        {{ end }}
+    </ul>
+    <a href="/post/">Read more</a>
+</article>

@@ -3,6 +3,7 @@ title = "Observability culture: How to gain understanding across the organisatio
 tags = ["software", "engineering", "sociotechnical", "culture", "observability", "o11y"]
 date = "2024-08-24"
 canonical = "https://blog.container-solutions.com/observability-culture-how-to-gain-understanding-across-the-organisation"
+featured = true
 +++
 
 > **Note:** This post was originally published on [Container Solutions' blog](https://blog.container-solutions.com/observability-culture-how-to-gain-understanding-across-the-organisation) in March 2023.

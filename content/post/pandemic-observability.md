@@ -1,7 +1,8 @@
 +++
-title =  "Pandemic Observability"
-tags = ["software", "engineering", "sociotechnical", "pandemic", "observability", "o11y"]
-date = "2021-07-29"
+title = "Pandemic Observability"
+tags = ["software", "engineering"]
+date = "2021-29-07"
+featured = true
 +++
 
 In the beginning of 2020, we were all faced with an absolute truth: the system is not working the way we all expected. Shockingly, a new highly spreadable, deadly virus means that we had to take extreme measures, fight adversity and sadly endure millions of excess deaths. In the wake of this tragedy, us humans, responded to the problem in various ways - all of which had one goal: put ourselves in a position where the system can run smoothly eventually again while it was resilient enough to fight issues as they occurred.
@@ -24,7 +25,7 @@ Likewise, in software systems, we *expect* the systems to do what is more or les
 
 ## It's all about feedback
 
-We can't  make radical or even normal decisions without feedback from our systems - whether they are human systems or software systems. So my advice would be: pay attention to your systems - whether it's individual components or the system as a whole. Get to know it. Start getting a feeling about what granularity of the data you need to understand and analyse.  Learn how to choose where and how to get that data. Learn how to collect that data in the first place.
+We can't make radical or even normal decisions without feedback from our systems - whether they are human systems or software systems. So my advice would be: pay attention to your systems - whether it's individual components or the system as a whole. Get to know it. Start getting a feeling about what granularity of the data you need to understand and analyse. Learn how to choose where and how to get that data. Learn how to collect that data in the first place.
 
 ## A better world
 
