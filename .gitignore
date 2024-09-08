@@ -30,3 +30,5 @@ hugo.linux
 .DS_Store
 
 node_modules/
+
+src/.wrangler

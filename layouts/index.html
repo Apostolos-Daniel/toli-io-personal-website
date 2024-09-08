@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <title>{{ .Site.Title }}</title>
   <meta charset="utf-8" />
@@ -7,28 +8,73 @@
 
   <!-- Include the main stylesheet -->
   {{ $mainStyle := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "css/main.scss" . | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-  <link rel="stylesheet" href="{{ $mainStyle.Permalink }}" />
+  <link rel="stylesheet" href="{{ $mainStyle.Permalink | absURL  }}" />
 </head>
+
 <body>
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
   <header class="home-header">
+    <div class="app-header-left">
+      <div class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
     <div class="app-header-right">
-      <button class="menu-icon" aria-label="Toggle Menu" title="Toggle Menu">Menu</button>
       <button id="theme-toggle" aria-label="Dark Mode" title="Dark Mode">🌙 Dark</button>
       {{ partial "dark-mode-toggle.html" . }}
     </div>
   </header>
-  
+
   <nav class="nav-menu">
     {{ range .Site.Menus.main.ByWeight }}
     <a href="{{ .URL }}">{{ .Name }}</a>
     {{ end }}
   </nav>
-  <main class="home-container">
-    <h2>{{ .Site.Title }}</h2>
-    {{ .Content }}
+
+  <!-- Main Container -->
+  <main id="main-content" class="home-container">
+    <!-- Left section with image -->
+    <div class="home-left">
+      <img src="./Toli-upper.jpeg" alt="Profile Picture" class="profile-picture" />
+    </div>
+
+    <!-- Right section with content -->
+    <div class="home-right">
+      <h1>👋 Hello, I'm Toli.</h1>
+      <p class="home-description">A software engineer with a math background and passion for basketball. I specialise in
+        building resilient, observable systems, favoring serverless and event-driven architectures. I'm experienced in
+        DevOps and observability, having worked with teams of all sizes across startups and enterprises.</p>
+
+      <div class="action-buttons">
+        <a href="javascript:void(0);" id="writing-btn" class="action-btn"><span>✍️ Writing</span></a>
+        <a href="javascript:void(0);" id="speaking-btn" class="action-btn"><span>🎤 Speaking</span></a>
+        <a href="javascript:void(0);" id="advocating-btn" class="action-btn"><span>📢 Advocating</span></a>
+      </div>
+
+      <!-- Container for blog posts -->
+      <div id="blog-posts-container" class="blog-posts-container">
+        {{ partial "post-list.html" . }}
+      </div>
+
+      <!-- Container for talks -->
+      <div id="talks-container" class="talks-container">
+        {{ partial "talk-list.html" . }}
+      </div>
+
+      <!-- Container for advocating -->
+      <div id="advocating-container" class="advocating-container community-summary-container">
+        {{ partial "community-summary.html" . }}
+      </div>
+    </div>
   </main>
-  
+
   <!-- Include the menu script -->
   {{ partial "menu-script.html" . }}
+  <script src="/js/main.js"></script>
 </body>
+
 </html>

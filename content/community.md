@@ -1,6 +1,6 @@
 +++
 title =  "Community"
-type = "info"
+Type = "community"
 +++
 
 I love being part of ✨communities of ideas and practices✨ that help us **grow and learn together**. Here are some of the ways I'm involved:

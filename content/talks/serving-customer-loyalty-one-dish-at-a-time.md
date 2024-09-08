@@ -5,6 +5,7 @@ conferenceUrl = "https://www.datadoghq.com/summit/london24/agenda/serving_up_cus
 conferenceDate = "March 2024"
 tags = ["presentation", "summit", "architecture-modernisation", "Datadog", "observability"]
 date = "2024-03-26"
+type = "talk"
 +++
 
 At the [Datadog London Summit](https://www.datadoghq.com/summit/london24/), I shared [our story](https://www.datadoghq.com/summit/london24/agenda/serving_up_customer_loyalty_one_dash_at_a_time/) of how we delivered a product for our restaurants while modernising our tech stack.

@@ -2,6 +2,7 @@
 title = "Restyling my personal website"
 tags = ["website", "css", "design", "chatgpt"]
 date = "2024-08-30"
+featured = true
 +++
 
 I use my personal website for 3 reasons:

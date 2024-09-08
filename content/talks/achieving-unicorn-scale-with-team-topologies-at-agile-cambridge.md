@@ -6,6 +6,7 @@ conferenceDate = "June 29th 2022"
 type = "talk"
 date = "2022-06-29"
 tags = ["talk", "team-topologies", "organisational-design"]
+featured = true
 +++
 
 I spoke at [Agile Cambridge](https://agilecambridge.net/programme/unicorn-scale-team-topologies-cinch) with [Andy Norton](https://twitter.com/andyjnorton) about cinch's journey from nothing to unicorn scale.

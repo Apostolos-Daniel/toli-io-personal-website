@@ -146,7 +146,6 @@ footer {
   }
 }
 
-
 .button {
   background-color: $primary-color;
   color: $lightest-color;
@@ -178,5 +177,51 @@ footer {
 
   .menu-icon {
     display: block; /* Show the hamburger icon on small screens */
+  }
+}
+
+/* Center the social icons */
+.app-header-social {
+  display: flex;
+  justify-content: center; /* Center the social icons */
+  align-items: center;
+  gap: 1rem;
+}
+
+.app-header-social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px; /* Ensure minimum width */
+  height: 44px; /* Ensure minimum height */
+  color: $dark-color;
+  text-decoration: none;
+  font-size: 1.5rem;
+
+  &:hover {
+    color: $primary-color;
+  }
+
+  body.dark-mode & {
+    color: $light-color;
+
+    &:hover {
+      color: lighten($primary-color, 10%);
+    }
+  }
+}
+
+/* Menu Icon Styling */
+.menu-icon span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 4px 0;
+  background-color: $dark-color;
+  transition: all 0.3s ease;
+
+  /* Dark mode */
+  body.dark-mode & {
+    background-color: $light-color;
   }
 }
