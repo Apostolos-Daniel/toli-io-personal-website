@@ -2,15 +2,14 @@
 title =  "Bio"
 type = "info"
 +++
+
 👋 Hello, I’m Toli.
 
 I grew up in Greece and have lived most of my adult life in the UK. I’m half Greek, half British, culturally and professionally shaped by both. I sometimes describe myself as a “Citizen of Nowhere” (there’s a book by that name, worth reading).
 
 What that really means is this: I’m comfortable operating across boundaries — technical, organisational, and cultural.
 
-⸻
-
-💻 My Software Engineering Story
+## 💻 My Software Engineering Story
 
 I’ve spent the last 15+ years designing and evolving distributed systems across startups, scale-ups, and enterprise environments.
 
@@ -33,9 +32,7 @@ That means:
 
 I still stay hands-on. I still write code. But I think in systems; not just services.
 
-⸻
-
-🧭 Strategy, Platforms & Leadership
+## 🧭 Strategy, Platforms & Leadership
 
 Over the past half-decade, my focus has increasingly moved toward technical strategy and organisational clarity.
 
@@ -50,9 +47,7 @@ I’m particularly interested in how modern engineering organisations evolve: ho
 
 Tools and patterns change. Principles compound.
 
-⸻
-
-🎤 Speaking, Writing & Community
+## 🎤 Speaking, Writing & Community
 
 Learning and sharing energises me.
 
@@ -73,9 +68,7 @@ If you’d like me to speak at an event or join a podcast, feel free to reach ou
 
 In the past, I co-hosted the Behind The Buzzword meetup in Manchester — a space for honest technical discussion without hype.
 
-⸻
-
-🎓 Mathematics
+## 🎓 Mathematics
 
 Before software, there was mathematics.
 
@@ -85,9 +78,7 @@ Mathematics trained me to think rigorously. Software taught me to think pragmati
 
 I try to keep both.
 
-⸻
-
-🏀 Basketball
+## 🏀 Basketball
 
 Basketball has been part of my life for as long as I can remember.
 
@@ -96,7 +87,5 @@ I played at an elite junior level and semi-professionally in Greece, and later c
 Basketball taught me discipline, teamwork, and resilience — lessons that translate surprisingly well to engineering leadership.
 
 The court has always been a place of clarity for me.
-
-⸻
 
 If you’re building something ambitious — technically or organisationally — I’d love to talk.
