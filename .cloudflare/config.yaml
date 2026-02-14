@@ -1,7 +1,8 @@
 # .cloudflare/config.yml
 
-# Specify the Hugo version (optional but recommended)
-hugo_version: 0.114.1
+# Specify the Hugo version (required for css.Sass; use 0.128.0+)
+# Also set HUGO_VERSION=0.128.0 in Cloudflare Pages → Settings → Environment variables
+hugo_version: 0.128.0
 
 # Define the build command and output directory
 build:
