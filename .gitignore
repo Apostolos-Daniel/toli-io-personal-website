@@ -31,4 +31,7 @@ hugo.linux
 
 node_modules/
 
+# yt-dlp binary (downloaded by scripts/sync-youtube-playlist-talks.mjs)
+/bin/
+
 src/.wrangler

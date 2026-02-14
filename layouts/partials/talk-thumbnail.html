@@ -1,0 +1,49 @@
+{{/* Extracts YouTube or Vimeo video ID from videoUrl, conferenceUrl, or first video link in content. Hugo lowercases param keys. */}}
+{{ $url := "" }}
+{{ if isset .Params "videourl" }}
+  {{ $url = .Params.videourl }}
+{{ else if isset .Params "conferenceurl" }}
+  {{ $url = .Params.conferenceurl }}
+{{ end }}
+{{ $youtubeId := "" }}
+{{ $vimeoId := "" }}
+{{ if $url }}
+  {{ $youtubeId = replaceRE `(?i).*(?:youtu\.be/|youtube\.com/(?:watch\?v=|live/))([a-zA-Z0-9_-]{11}).*` "$1" $url }}
+  {{ if or (eq $youtubeId $url) (ne (len $youtubeId) 11) }}
+    {{ $youtubeId = "" }}
+  {{ end }}
+  {{ if not $youtubeId }}
+    {{ $vimeoId = replaceRE `(?i).*vimeo\.com/(?:video/)?(\d+).*` "$1" $url }}
+    {{ if eq $vimeoId $url }}
+      {{ $vimeoId = "" }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if not $youtubeId }}
+  {{ if not $vimeoId }}
+    {{ $content := .RawContent }}
+    {{ $youtuBe := findRE `(?i)https?://(?:www\.)?youtu\.be/[a-zA-Z0-9_-]{11}` $content 1 }}
+    {{ $youtubeV := findRE `(?i)https?://(?:www\.)?youtube\.com/(?:watch\?v=|live/)[a-zA-Z0-9_-]{11}` $content 1 }}
+    {{ $vimeo := findRE `(?i)https?://(?:www\.)?vimeo\.com/(?:video/)?\d+` $content 1 }}
+    {{ $fromContent := "" }}
+    {{ if $youtuBe }}
+      {{ $fromContent = index $youtuBe 0 }}
+      {{ $youtubeId = replaceRE `(?i).*(?:youtu\.be/|youtube\.com/(?:watch\?v=|live/))([a-zA-Z0-9_-]{11}).*` "$1" $fromContent }}
+    {{ else if $youtubeV }}
+      {{ $fromContent = index $youtubeV 0 }}
+      {{ $youtubeId = replaceRE `(?i).*(?:youtu\.be/|youtube\.com/(?:watch\?v=|live/))([a-zA-Z0-9_-]{11}).*` "$1" $fromContent }}
+    {{ else if $vimeo }}
+      {{ $fromContent = index $vimeo 0 }}
+      {{ $vimeoId = replaceRE `(?i).*vimeo\.com/(?:video/)?(\d+).*` "$1" $fromContent }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if and $youtubeId (eq (len $youtubeId) 11) }}
+  <a href="{{ .Permalink }}" class="talk-thumbnail-link" aria-hidden="true">
+    <img src="https://img.youtube.com/vi/{{ $youtubeId }}/hqdefault.jpg" alt="" class="talk-thumbnail" loading="lazy" width="320" height="180">
+  </a>
+{{ else if $vimeoId }}
+  <a href="{{ .Permalink }}" class="talk-thumbnail-link" aria-hidden="true">
+    <img src="https://vumbnail.com/{{ $vimeoId }}.jpg" alt="" class="talk-thumbnail" loading="lazy" width="320" height="180">
+  </a>
+{{ end }}

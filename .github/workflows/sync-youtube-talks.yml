@@ -1,0 +1,48 @@
+# Monthly sync of talks from YouTube playlist into content/talks.
+# Runs the sync script and commits any new or updated talk files.
+name: Sync YouTube playlist talks
+
+on:
+  schedule:
+    # Run at 00:00 UTC on the 1st of every month
+    - cron: "0 0 1 * *"
+  workflow_dispatch: # Allow manual run from Actions tab
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Sync YouTube playlist to talks
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/sync-youtube-playlist-talks.mjs
+        # If YOUTUBE_API_KEY is not set, script falls back to yt-dlp (downloaded on first run)
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet content/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          git status --short
+
+      - name: Commit and push if there are changes
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/talks/
+          git commit -m "chore: sync talks from YouTube playlist [automated]"
+          git push

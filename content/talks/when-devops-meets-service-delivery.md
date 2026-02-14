@@ -13,3 +13,7 @@ I talked about what happens [when DevOps meets Service Delivery](https://agilema
 Slide deck is published on my GitHub [slides repo](https://github.com/Apostolos-Daniel/slides/blob/main/2023-wtf-is-sre/when-devops-meets-service-delivery.pdf) or you can look them up on [Google Slides](https://docs.google.com/presentation/d/14zgvCFmqZ6roFKi9KTRzw84Zj0Dnv0Fm/edit?usp=sharing&ouid=117274469984719349327&rtpof=true&sd=true)
 
 ![talk description](../Wtf-is-sre-when-devops-meets-service-delivery.png)
+
+## Links
+
+- [Watch on YouTube](https://youtu.be/nLrx0BCMl0Y)

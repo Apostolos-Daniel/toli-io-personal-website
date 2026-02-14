@@ -2,12 +2,20 @@
   <ul class="posts-list">
     {{ range $index, $element := .Paginator.Pages }}
     {{ if and (eq .Type "talk")}}
-        <li class="posts-list-item">
-          <a class="posts-list-item-title" href="{{ .Permalink }}">{{ .Title }}</a>
-          <span class="posts-list-item-description">
-            {{ partial "icon.html" (dict "ctx" $ "name" "clock") }} {{ .ReadingTime }} min read -
-            {{ .PublishDate.Format "Jan 2, 2006" }}
-          </span>
+        <li class="posts-list-item talks-list-item">
+          {{ partial "talk-thumbnail.html" . }}
+          <div class="posts-list-item-body">
+            <a class="posts-list-item-title" href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ with .Params.tags }}
+              <span class="posts-list-item-description posts-list-item-tags">
+                {{ range . }}<a class="tag" href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
+              </span>
+            {{ end }}
+            <span class="posts-list-item-description">
+              {{ partial "icon.html" (dict "ctx" $ "name" "clock") }} {{ .ReadingTime }} min read -
+              {{ .PublishDate.Format "Jan 2, 2006" }}
+            </span>
+          </div>
         </li>
       {{ end }}
     {{ end }}

@@ -17,3 +17,42 @@
   display: block;
   font-size: 0.8em;
 }
+
+.posts-list-item-tags {
+  display: block;
+  margin: 0.25em 0;
+
+  .tag {
+    margin-right: 0.35em;
+  }
+}
+
+/* Talk list items with video thumbnail */
+.talks-list-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+
+  .posts-list-item-body {
+    min-width: 0;
+    flex: 1;
+  }
+}
+
+.talk-thumbnail-link {
+  flex-shrink: 0;
+  display: block;
+  line-height: 0;
+}
+
+.talk-thumbnail {
+  width: 160px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+
+  body.dark-mode & {
+    border-color: rgba(255, 255, 255, 0.12);
+  }
+}

@@ -12,5 +12,7 @@ I spoke at [DORA Community Discussions](https://groups.google.com/g/dora-communi
 
 ## Links
 
+
+- [Watch on YouTube](https://youtu.be/sYAxFYbHLIg)
 - [Slides on GitHub]( https://github.com/Apostolos-Daniel/slides/blob/main/2023-dora-community-conversations/a-love-letter-to-dora.pdf)
 - [Talk on YouTube](https://youtu.be/GnpX2B8IymA)

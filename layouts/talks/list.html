@@ -4,16 +4,24 @@
     <h1>{{ .Title }}</h1>
     <ul class="posts-list">
       {{ range $index, $element := .Paginator.Pages }}
-        <li class="posts-list-item">
-          <a class="posts-list-item-title" href="{{ .Permalink }}">{{ .Title }}</a>
-          <br>
-          {{ if isset .Params "conference" }}
-            <a target="_blank" class="posts-list-item-description" href="{{ .Params.ConferenceUrl }}">👥 {{.Params.Conference }}</a>
-          {{ end }}
-          <span class="posts-list-item-description">
-            {{ partial "icon.html" (dict "ctx" $ "name" "clock") }} {{ .ReadingTime }} min read -
-            {{ .PublishDate.Format "Jan 2, 2006" }}
-          </span>
+        <li class="posts-list-item talks-list-item">
+          {{ partial "talk-thumbnail.html" . }}
+          <div class="posts-list-item-body">
+            <a class="posts-list-item-title" href="{{ .Permalink }}">{{ .Title }}</a>
+            <br>
+            {{ if isset .Params "conference" }}
+              <a target="_blank" class="posts-list-item-description" href="{{ .Params.conferenceurl }}">👥 {{ .Params.conference }}</a>
+            {{ end }}
+            {{ with .Params.tags }}
+              <span class="posts-list-item-description posts-list-item-tags">
+                {{ range . }}<a class="tag" href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
+              </span>
+            {{ end }}
+            <span class="posts-list-item-description">
+              {{ partial "icon.html" (dict "ctx" $ "name" "clock") }} {{ .ReadingTime }} min read -
+              {{ .PublishDate.Format "Jan 2, 2006" }}
+            </span>
+          </div>
         </li>
       {{ end }}
     </ul>
