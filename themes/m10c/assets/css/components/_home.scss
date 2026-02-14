@@ -77,7 +77,7 @@
     font-size: 4.55rem; /* Increase font size by 1.3 times */
     font-family: 'Merriweather', serif;
     font-weight: 700;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     color: $primary-color;
 
     /* Dark mode */
@@ -86,13 +86,45 @@
     }
   }
 
-  p.home-description {
-    font-size: 1.95rem; /* Increase font size by 1.3 times */
-    line-height: 1.7;
-    margin-bottom: 2rem;
+  .home-subheadline {
+    font-size: 1.95rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
     color: $dark-color;
 
-    /* Dark mode */
+    body.dark-mode & {
+      color: $light-color;
+    }
+  }
+
+  .home-description {
+    margin-bottom: 1.5rem;
+
+    p {
+      font-size: 1.95rem;
+      line-height: 1.7;
+      margin-bottom: 1rem;
+      color: $dark-color;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      body.dark-mode & {
+        color: $light-color;
+      }
+    }
+  }
+
+  .credibility-strip {
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    margin-bottom: 2rem;
+    color: $dark-color;
+    opacity: 0.9;
+
     body.dark-mode & {
       color: $light-color;
     }
@@ -228,8 +260,16 @@
       font-size: 3.25rem; /* Increase font size by 1.3 times */
     }
 
-    p.home-description {
-      font-size: 1.56rem; /* Increase font size by 1.3 times */
+    .home-subheadline {
+      font-size: 1.56rem;
+    }
+
+    .home-description p {
+      font-size: 1.56rem;
+    }
+
+    .credibility-strip {
+      font-size: 1rem;
     }
 
     .action-buttons {

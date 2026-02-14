@@ -2,7 +2,9 @@ baseURL = "https://toli.io"
 title = "👋 Hello, I'm Toli."
 #themesDir = "../.."
 theme = "m10c"
-paginate = 10
+
+[pagination]
+pagerSize = 10
 
 ignoreFiles = ["src/pa11y.js"]
 

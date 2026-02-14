@@ -1,7 +1,7 @@
 +++
 title = "Pandemic Observability"
 tags = ["software", "engineering"]
-date = "2021-29-07"
+date = "2021-07-29"
 featured = true
 +++
 

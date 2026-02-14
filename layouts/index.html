@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Include the main stylesheet -->
-  {{ $mainStyle := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "css/main.scss" . | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  {{ $mainStyle := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "css/main.scss" . | css.Sass (dict "outputStyle" "compressed") | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $mainStyle.Permalink | absURL  }}" />
 </head>
 
@@ -45,14 +45,17 @@
     <!-- Right section with content -->
     <div class="home-right">
       <h1>👋 Hello, I'm Toli.</h1>
-      <p class="home-description">A software engineer with a math background and passion for basketball. I specialise in
-        building resilient, observable systems, favoring serverless and event-driven architectures. I'm experienced in
-        DevOps and observability, having worked with teams of all sizes across startups and enterprises.</p>
-
+      <p class="home-subheadline">15+ years evolving distributed systems across startup, scale-up, and enterprise environments.</p>
+      <div class="home-description">
+        <p>I partner with product and engineering leaders to shape technical strategy that delivers measurable business outcomes. My background spans event-driven and serverless architectures, observability-first design, and platform thinking, bringing a Team Topologies mindset to cross-team leadership and organisational clarity.</p>
+      </div>
+      <div class="credibility-strip">
+        Lead Architect @ Flipdish · Datadog Ambassador · Official Team Topologies Advocate · Conference Speaker
+      </div>
       <div class="action-buttons">
-        <a href="javascript:void(0);" id="writing-btn" class="action-btn"><span>✍️ Writing</span></a>
-        <a href="javascript:void(0);" id="speaking-btn" class="action-btn"><span>🎤 Speaking</span></a>
-        <a href="javascript:void(0);" id="advocating-btn" class="action-btn"><span>📢 Advocating</span></a>
+        <a href="javascript:void(0);" id="writing-btn" class="action-btn"><span>Writing</span></a>
+        <a href="javascript:void(0);" id="speaking-btn" class="action-btn"><span>Speaking</span></a>
+        <a href="javascript:void(0);" id="advocating-btn" class="action-btn"><span>Advocating</span></a>
       </div>
 
       <!-- Container for blog posts -->
