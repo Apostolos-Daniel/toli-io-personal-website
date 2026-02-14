@@ -7,7 +7,7 @@ type = "info"
 
 I grew up in Greece and have lived most of my adult life in the UK. I’m half Greek, half British, culturally and professionally shaped by both. I sometimes describe myself as a “Citizen of Nowhere” (there’s a book by that name, worth reading).
 
-What that really means is this: I’m comfortable operating across boundaries — technical, organisational, and cultural.
+What that really means is this: I’m comfortable operating across boundaries,technical, organisational, and cultural.
 
 ## 💻 My Software Engineering Story
 
@@ -24,11 +24,11 @@ Across all of these roles, one theme has remained constant:
 I care about building systems that scale: technically and organisationally. Yet, they still fit in a person's head or at the very least in a collective's head (a team being the unit of delivery and ownwership of software).
 
 That means:
-	•	clear architectural boundaries
-	•	observable systems
-	•	intentional constraints
-	•	platforms that reduce cognitive load
-	•	engineering cultures that favour delivery over heroics
+- clear architectural boundaries
+- observable systems
+- intentional constraints
+- platforms that reduce cognitive load
+- engineering cultures that favour delivery over heroics
 
 I still stay hands-on. I still write code. But I think in systems; not just services.
 
@@ -37,11 +37,11 @@ I still stay hands-on. I still write code. But I think in systems; not just serv
 Over the past half-decade, my focus has increasingly moved toward technical strategy and organisational clarity.
 
 I work closely with founders, CTOs, and engineering leaders to:
-	•	Define target architectures
-	•	Modernise legacy systems safely
-	•	Introduce platform standards (“golden paths”)
-	•	Improve delivery performance
-	•	Reduce organisational entropy
+- Define target architectures
+- Modernise legacy systems safely
+- Introduce platform standards (“golden paths”)
+- Improve delivery performance
+- Reduce organisational entropy
 
 I’m particularly interested in how modern engineering organisations evolve: how architecture, structure, and incentives interact.
 
@@ -54,15 +54,15 @@ Learning and sharing energises me.
 I regularly speak at conferences, appear on podcasts, and contribute to engineering communities. I’m a Datadog Ambassador and an Official Team Topologies Advocate.
 
 I’ve spoken about:
-	•	Serverless and event-driven architecture
-	•	Modernising monoliths
-	•	Delivery performance and observability
-	•	Team Topologies and organisational design
+- Serverless and event-driven architecture
+- Modernising monoliths
+- Delivery performance and observability
+- Team Topologies and organisational design
 
 You can explore:
-	•	🎙️ Podcasts￼
-	•	🎤 Talks￼
-	•	✍️ Writing￼
+- 🎙️ Podcasts￼
+- 🎤 Talks￼
+- ✍️ Writing￼
 
 If you’d like me to speak at an event or join a podcast, feel free to reach out at talks@toli.io.
 
@@ -88,4 +88,4 @@ Basketball taught me discipline, teamwork, and resilience — lessons that trans
 
 The court has always been a place of clarity for me.
 
-If you’re building something ambitious — technically or organisationally — I’d love to talk.
+If you’re building something ambitious,  technically or organisationally, I’d love to talk.
